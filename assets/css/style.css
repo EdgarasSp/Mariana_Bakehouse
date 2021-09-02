@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* logo */
+
+header {
+    background-color: red;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    float: none;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.logo img {
+    height: 120px;
+}
+
+/* navigation items */
