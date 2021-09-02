@@ -7,7 +7,8 @@
 /* logo */
 
 header {
-    background-color: red;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 .logo {
@@ -23,3 +24,19 @@ header {
 }
 
 /* navigation items */
+
+#header-menu {
+    text-align: center;
+
+}
+
+#header-menu li {
+    display: inline-block;
+
+}
+
+.header-menu-list-item a {
+    text-decoration: none;
+    color: inherit;
+
+}
