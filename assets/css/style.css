@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
 *{
     margin:0;
     padding:0;
     border:0;
+}
+/* fonts */
+
+body {
+    font-family: Signika, sans-serif;
+    color: #1C1B1B;
+}
+
+h1, h2{
+    font-family: Open Sans, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    color: #263640;
 }
 
 /* logo */
