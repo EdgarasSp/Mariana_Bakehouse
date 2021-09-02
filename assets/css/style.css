@@ -28,6 +28,7 @@ h1, h2{
 header {
     text-transform: uppercase;
     letter-spacing: .2em;
+    background-color: #E7F0EF;
 }
 
 .logo {
@@ -38,8 +39,10 @@ header {
     text-align: center;
 }
 
-.logo img {
-    height: 120px;
+.logo-cropped {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }
 
 /* navigation items */
@@ -53,6 +56,7 @@ header {
 #header-menu li {
     display: inline-block;
     width: 100px;
+    padding-bottom: 20px;
 }
 
 .header-menu-list-item a {
@@ -61,4 +65,22 @@ header {
     font-size: 75%;  
 }
 
+/*banner*/
+
+#banner-container {
+    overflow: hidden;
+    position: relative;
+ }
+
+#banner-image {
+    height: 600px;
+    max-width: 100%;
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #E7F0EF;
+   
+    
+}
 
