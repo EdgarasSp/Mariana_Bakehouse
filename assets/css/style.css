@@ -28,19 +28,18 @@ h1, h2{
 header {
     text-transform: uppercase;
     letter-spacing: .2em;
-    background-color: #E7F0EF;
+    background-color: #fff;
 }
 
 .logo {
     width: auto;
-    height: auto;
+    height: 90px;
     float: none;
     padding: 0px 0px 0px 0px;
     text-align: center;
 }
 
 .logo-cropped {
-    width: 200px;
     height: 100px;
     object-fit: cover;
 }
@@ -56,13 +55,15 @@ header {
 #header-menu li {
     display: inline-block;
     width: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+ 
 }
 
 .header-menu-list-item a {
     text-decoration: none;
     color: inherit;
-    font-size: 75%;  
+    font-size: 65%;  
+    font-weight: 500;
 }
 
 /*banner*/
@@ -73,7 +74,7 @@ header {
  }
 
 #banner-image {
-    height: 600px;
+    height: 700px;
     max-width: 100%;
     background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
