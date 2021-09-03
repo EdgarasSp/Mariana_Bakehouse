@@ -75,7 +75,7 @@ header {
 #banner-image {
     height: 750px;
     max-width: 100%;
-    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg1");
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -89,6 +89,7 @@ header {
     background-color: #263640;
     color: #EBF2F1;
     border-style: none;
+    border-radius: 3%;
     text-transform: uppercase;
 }
 
@@ -96,6 +97,7 @@ header {
     background-color: #EBF2F1;
     color: #263640;
     border-style: solid;
+    border-radius: 3%;
     font-weight: 600;
 }
 .vertical-center-button {
@@ -138,6 +140,7 @@ header {
     height: 500px;
     overflow: hidden;
     position: relative;
+    border-radius: 3%;
 }
 
 hr {
@@ -164,19 +167,19 @@ hr {
 }
 
 #featured-prod-1 {
-    background-image: url("/assets/images/products/caramel_coconut_cake.jpg1");
+    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
 }
 
 #featured-prod-2 {
-    background-image: url("/assets/images/products/honey_yougurt_cake.jpg1");
+    background-image: url("/assets/images/products/honey_yougurt_cake.jpg");
 }
 
 #featured-prod-3 {
-    background-image: url("/assets/images/products/almond_croissant.jpg1");
+    background-image: url("/assets/images/products/almond_croissant.jpg");
 }
 
 #featured-prod-4 {
-    background-image: url("/assets/images/products/chocolate_brownie.jpg1");
+    background-image: url("/assets/images/products/chocolate_brownie.jpg");
 }
 
 /* Bespoke Products */
@@ -200,6 +203,7 @@ hr {
     width: 300px;
     height: 250px;
     background-color: #263640;
+    border-radius: 3%;
     opacity: 95%;
     position: absolute;
     top: 50%;
@@ -227,3 +231,4 @@ hr {
     letter-spacing: 0.1rem;
     margin: 10px 30px;
 }
+
