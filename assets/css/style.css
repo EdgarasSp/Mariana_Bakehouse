@@ -75,7 +75,7 @@ header {
 #banner-image {
     height: 700px;
     max-width: 100%;
-    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpga");
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -115,8 +115,7 @@ header {
     display: inline-block;
     margin: 0px 2%;
     width: 20%;
-    height: 375px;
-    border: solid 1px red;
+    height: 500px;
     overflow: hidden;
     position: relative;
 }
@@ -124,9 +123,10 @@ header {
 .vertical-center-prod-button {
     margin: 0;
     position: absolute;
-    top: 325px;
+    top: 450px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 
