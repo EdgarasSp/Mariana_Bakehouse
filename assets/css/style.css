@@ -263,19 +263,35 @@ hr {
 #home_about_contact_container {
     height: 1200px;
     width: 100%;
-    margin-top: 150px;
-    background-color: #E7F0EF;
+    margin-top: 150px;   
 }
 
 .container_left {
     float: left;
-    width: 50%;
-    padding-top: 50px;
+    height:510px;
+    width: 50%;   
 }
 
 .container_right {
     float: right;
+    height:510px;
     width: 50%;
-    padding-top: 50px;
 }
 
+#Home_about_media {
+    background-color: #E7F0EF;
+}
+
+#Home_contact_media {
+    background-color: #E7F0EF;
+}
+
+#home_about_info .center-align-h1 {
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+#home_contact_form .center-align-h1 {
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
