@@ -83,7 +83,7 @@ header {
 }
 /*banner button*/
 
-#shop-button {
+.shop-button {
     height: 2.5rem;
     width: 8rem;
     background-color: #263640;
@@ -91,7 +91,7 @@ header {
     border-style: none;
 }
 
-#shop-button:hover {
+.shop-button:hover {
     background-color: #EBF2F1;
     color: #263640;
     border-style: solid;
@@ -117,5 +117,9 @@ header {
     width: 20%;
     height: 375px;
     border: solid 1px red;
+}
+
+.vertical-center-prod-button {
+    margin-top: 100%;
 }
 
