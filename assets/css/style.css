@@ -75,7 +75,7 @@ header {
 #banner-image {
     height: 750px;
     max-width: 100%;
-    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg1");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -155,7 +155,7 @@ hr {
     transform: translate(-50%, -50%);
 }
 
-#featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4 {
+#featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4, #bespke-background-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -163,17 +163,47 @@ hr {
 }
 
 #featured-prod-1 {
-    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
+    background-image: url("/assets/images/products/caramel_coconut_cake.jpg1");
 }
 
 #featured-prod-2 {
-    background-image: url("/assets/images/products/honey_yougurt_cake.jpg");
+    background-image: url("/assets/images/products/honey_yougurt_cake.jpg1");
 }
 
 #featured-prod-3 {
-    background-image: url("/assets/images/products/almond_croissant.jpg");
+    background-image: url("/assets/images/products/almond_croissant.jpg1");
 }
 
 #featured-prod-4 {
-    background-image: url("/assets/images/products/chocolate_brownie.jpg");
+    background-image: url("/assets/images/products/chocolate_brownie.jpg1");
+}
+
+/* Bespoke Products */
+
+
+#bespoke-prod-info-container {
+    height:750px;
+    width: 100%;
+    margin-top: 150px;
+    overflow: hidden;
+    position: relative;
+    border: red solid 1px;
+}
+#bespke-background-image {
+    background-image: url("/assets/images/products/lemon_cake.jpg");
+    height: 600px; /* change to 750px once box is in place*/
+    max-width: 100%;
+    border:blue solid 1px;
+}
+
+#bespoke-prod-info-text {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(38, 65, 64, .95);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
 }
