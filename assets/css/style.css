@@ -232,3 +232,27 @@ hr {
     margin: 10px 30px;
 }
 
+.contact-button {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #E7F0EF;
+    color: #263640;
+    border-style: none;
+    border-radius: 3%;
+    text-transform: uppercase;
+}
+
+.contact-button:hover {
+    border-style: solid;
+    background-color: #b5b9b9;
+    border-radius: 3%;
+
+}
+.vertical-center-cont-button {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
