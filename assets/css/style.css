@@ -129,4 +129,10 @@ header {
     transform: translate(-50%, -50%);
 }
 
-
+#featured-prod-1 {
+    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #E7F0EF;
+}
