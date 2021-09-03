@@ -89,12 +89,14 @@ header {
     background-color: #263640;
     color: #EBF2F1;
     border-style: none;
+    text-transform: uppercase;
 }
 
 .shop-button:hover {
     background-color: #EBF2F1;
     color: #263640;
     border-style: solid;
+    font-weight: 600;
 }
 .vertical-center-button {
     margin: 0;
