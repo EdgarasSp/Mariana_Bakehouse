@@ -27,7 +27,7 @@ h1, h2{
 
 header {
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .2rem;
     background-color: #fff;
 }
 
@@ -75,7 +75,7 @@ header {
 #banner-image {
     height: 700px;
     max-width: 100%;
-    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpga");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -84,8 +84,8 @@ header {
 /*banner button*/
 
 #shop-button {
-    height: 2.5em;
-    width: 8em;
+    height: 2.5rem;
+    width: 8rem;
     background-color: #263640;
     color: #EBF2F1;
     border-style: none;
@@ -107,11 +107,15 @@ header {
 
 /* featured products*/
 
+#featured-container {
+    text-align: center;
+}
+
 .featured-prod-container {
     display: inline-block;
-    width: 100%;
-    padding-bottom: 15px; 
+    margin: 0px 2%;
     width: 20%;
     height: 375px;
     border: solid 1px red;
 }
+
