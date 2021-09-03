@@ -107,3 +107,11 @@ header {
 
 /* featured products*/
 
+.featured-prod-container {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 15px; 
+    width: 20%;
+    height: 375px;
+    border: solid 1px red;
+}
