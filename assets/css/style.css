@@ -113,6 +113,23 @@ header {
     text-align: center;
 }
 
+.center-align-h2 {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    opacity: 80%;
+}
+
+.center-align-h1 {
+    margin: 0px;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    opacity: 90%;
+}
+
 .featured-prod-container {
     display: inline-block;
     margin: 0px 2%;
@@ -122,6 +139,13 @@ header {
     position: relative;
 }
 
+hr {
+    border: #263640 solid 1px;
+    opacity: 10%;
+    width: 80%;
+    margin-bottom: 50px;
+
+}
 .vertical-center-prod-button {
     margin: 0;
     position: absolute;
