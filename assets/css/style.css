@@ -280,10 +280,6 @@ hr {
     width: 50%;
 }
 
-#Home_about_media {
-    background-color: #E7F0EF;
-}
-
 #Home_contact_media {
     background-color: #E7F0EF;
 }
@@ -308,10 +304,30 @@ hr {
 }
 
 #home_contact_media {
-    background-image: url("/assets/images/shop/open_sign.jpg");
+    background-image: url("/assets/images/shop/open_sign.jpg1");
     height: 510px; 
     max-width: 100%;
+}
 
+/* home page form*/
+#home_form_container {
+
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    height: 400px;
+    width: auto;
+    text-align: left;
+    position: absolute;
+    padding: 30px;
 
 
 }
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
