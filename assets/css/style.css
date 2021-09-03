@@ -115,6 +115,7 @@ header {
 
 .center-align-h2 {
     margin-top: 50px;
+    margin-bottom: 10px;
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
@@ -198,7 +199,8 @@ hr {
 #bespoke-prod-info-text {
     width: 300px;
     height: 250px;
-    background-color: rgba(38, 65, 64, .95);
+    background-color: #263640;
+    opacity: 95%;
     position: absolute;
     top: 50%;
     left: 50%;
