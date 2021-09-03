@@ -117,9 +117,16 @@ header {
     width: 20%;
     height: 375px;
     border: solid 1px red;
+    overflow: hidden;
+    position: relative;
 }
 
 .vertical-center-prod-button {
-    margin-top: 100%;
+    margin: 0;
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
