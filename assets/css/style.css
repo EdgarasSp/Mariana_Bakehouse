@@ -266,3 +266,16 @@ hr {
     margin-top: 150px;
     background-color: #E7F0EF;
 }
+
+.container_left {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.container_right {
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+}
+
