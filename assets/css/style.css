@@ -259,3 +259,10 @@ hr {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+#home_about_contact_container {
+    height: 1200px;
+    width: 100%;
+    margin-top: 150px;
+    background-color: #E7F0EF;
+}
