@@ -85,10 +85,23 @@ header {
 /*banner button*/
 
 #shop-button {
-    height: 40px;
-    width: 130px;
-    position: absolute;
-    top: 80%;
-    flex: auto;
+    height: 2.5em;
+    width: 8em;
+    background-color: #263640;
+    color: #EBF2F1;
+    border-style: none;
 }
 
+#shop-button:hover {
+    background-color: #EBF2F1;
+    color: #263640;
+    border-style: solid;
+}
+.vertical-center-button {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
