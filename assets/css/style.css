@@ -288,10 +288,20 @@ hr {
 
 #home_about_info .center-align-h1 {
     text-align: center;
-    margin: 40px 0px 20px 0px;
+    margin: 40px 0px 15px 0px;
 }
 
 #home_contact_form .center-align-h1 {
     text-align: center;
     margin: 40px 0px 15px 0px;
 }
+
+#home_about_info p  {
+    margin: 0px 100px;
+    font-family: Verdana, sans-serif;
+    font-size: .8rem;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
