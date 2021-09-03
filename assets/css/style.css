@@ -129,10 +129,25 @@ header {
     transform: translate(-50%, -50%);
 }
 
-#featured-prod-1 {
-    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
+#featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: #E7F0EF;
+}
+
+#featured-prod-1 {
+    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
+}
+
+#featured-prod-2 {
+    background-image: url("/assets/images/products/honey_yougurt_cake.jpg");
+}
+
+#featured-prod-3 {
+    background-image: url("/assets/images/products/almond_croissant.jpg");
+}
+
+#featured-prod-4 {
+    background-image: url("/assets/images/products/chocolate_brownie.jpg");
 }
