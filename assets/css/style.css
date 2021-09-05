@@ -363,14 +363,56 @@ hr {
 
 #feedback_main_container {
     margin-top: 40px;
+
 }
 .fedback_container {
     display: inline-block;
-    margin: 0px 4.7%;
-    width: 15%;
+    background-color: rgba(211, 216, 211, 0.3);
+    color: #263640;
+    margin: 0px 3.1%;
+    width: 10%;
     height: 200px;
     overflow: hidden;
     position: relative;
     border-radius: 3%;
+    border: rgba(211, 216, 211, 0.6) solid 1px;
+}
 
-    border: red solid 1px;
+.fedback_container p {
+    margin: 10px;
+    text-align: center;
+}
+
+.feedback_title {
+    max-height: 50px;
+    width: 100%;
+    font-size: 100%;
+    border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+}
+
+.feedback_message {
+    max-height: 110px;
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+}
+
+#feedback_stars {
+    max-height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    color: orange;
+    margin: 0% 0%;
+
+}
+/* footer placeholder */
+
+#placeholder {
+    background-color: #1C1B1B;
+    height: 200px;
+    width:auto;
+    margin-top: 40px;
+}
