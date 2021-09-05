@@ -347,7 +347,7 @@ hr {
 
 .main-contact-form textarea {
     height: 180px;
-    font-size: inherit;
+    font-size: 90%;
     font-family: inherit;
 }
 
