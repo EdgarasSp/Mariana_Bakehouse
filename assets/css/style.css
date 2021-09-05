@@ -35,7 +35,7 @@ header {
     width: auto;
     height: 90px;
     float: none;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -401,6 +401,10 @@ hr {
     border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
+textarea {
+    resize: none;
+}
+
 #feedback_stars {
     max-height: 40px;
     width: 100%;
@@ -421,29 +425,52 @@ hr {
     display: inline-block;
     margin: 0px 0px;
     background-color: #E7F0EF; 
-    color: #263640;
+    color: #1f2b33;
     width: 33%;
     min-width: 33%;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     position: relative;
-    
-    border: red solid 1px;
+
 }
 
 #footer_social p {
-    margin: 20px 60px;
+    margin: 20px 50px 10px 50px;
     text-align: left;
     font-weight: 600;
+    font-size: 100%;
 }
 
 #footer_subscribe p {
-    margin: 20px 60px;
+    margin: 20px 2%;
     font-weight: 600;
+    font-size: 100%;
 }
 
 #footer_nav_links p {
-    margin: 20px 60px;
+    margin: 20px 2%;
     text-align: right;
     font-weight: 600;
+    font-size: 100%;
+}
+
+/* social */
+
+.social-networks{
+    text-align: left;
+    margin:  1% 6%;
+    list-style-type: none;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    color: #263640;
+}
+.social-networks li a {
+    text-decoration: none;
+    color: #263640;
+    font-size: 90%;
+
+
 }
