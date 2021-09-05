@@ -251,7 +251,6 @@ hr {
     border-style: solid;
     background-color: #b5b9b9;
     border-radius: 3%;
-
 }
 .vertical-center-cont-button {
     margin: 0;
@@ -327,7 +326,6 @@ hr {
     margin: 30px 100px 30px 100px;
     height: 350px;
     width:80%;
-    
 }
 .main-contact-form {
     text-align: center;
@@ -360,3 +358,19 @@ hr {
 .send-button:hover {
     border: #263640 solid 1px;
 }
+
+/* Feedback */
+
+#feedback_main_container {
+    margin-top: 40px;
+}
+.fedback_container {
+    display: inline-block;
+    margin: 0px 4.7%;
+    width: 15%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3%;
+
+    border: red solid 1px;
