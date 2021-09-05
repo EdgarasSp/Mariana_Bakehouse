@@ -412,9 +412,22 @@ hr {
 }
 /* footer */
 
-#footer_container {
-    background-color: #E7F0EF; 
-    height: 200px;
-    width:auto;
+#footer_main_container {
     margin-top: 40px;
+    background-color: #E7F0EF; 
 }
+
+.footer_container {
+    display: inline-block;
+    margin: 0px 0px;
+    background-color: #E7F0EF; 
+    color: #263640;
+    width: 33%;
+    min-width: 33%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    
+    border: red solid 1px;
+}
+
