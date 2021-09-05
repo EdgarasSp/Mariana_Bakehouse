@@ -75,7 +75,7 @@ header {
 #banner-image {
     height: 750px;
     max-width: 100%;
-    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg1");
+    background-image: url("/assets/images/banner/pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -83,7 +83,7 @@ header {
 }
 /*banner button*/
 
-.shop-button, .send-button {
+.shop-button, .send-button, .subscribe-button {
     height: 2.5rem;
     width: 8rem;
     background-color: #263640;
@@ -93,7 +93,7 @@ header {
     text-transform: uppercase;
 }
 
-.shop-button:hover, .send-button:hover {
+.shop-button:hover, .send-button:hover, .subscribe-button:hover {
     background-color: #EBF2F1;
     color: #263640;
     border-style: solid;
@@ -172,19 +172,19 @@ hr {
 }
 
 #featured-prod-1 {
-    background-image: url("/assets/images/products/caramel_coconut_cake.jpg1");
+    background-image: url("/assets/images/products/caramel_coconut_cake.jpg");
 }
 
 #featured-prod-2 {
-    background-image: url("/assets/images/products/honey_yougurt_cake.jpg1");
+    background-image: url("/assets/images/products/honey_yougurt_cake.jpg");
 }
 
 #featured-prod-3 {
-    background-image: url("/assets/images/products/almond_croissant.jpg1");
+    background-image: url("/assets/images/products/almond_croissant.jpg");
 }
 
 #featured-prod-4 {
-    background-image: url("/assets/images/products/chocolate_brownie.jpg1");
+    background-image: url("/assets/images/products/chocolate_brownie.jpg");
 }
 
 /* Bespoke Products */
@@ -199,7 +199,7 @@ hr {
 }
 
 #bespke-background-image {
-    background-image: url("/assets/images/products/lemon_cake.jpg1");
+    background-image: url("/assets/images/products/lemon_cake.jpg");
     height: 750px; 
     max-width: 100%;  
 }
@@ -467,7 +467,7 @@ textarea {
     margin: 1%;
     color: #263640;
 }
-.social-networks li a, .footer_links li a {
+.social-networks li a, .footer_links li a, .subscription_form label {
     text-decoration: none;
     color: #263640;
     font-size: 90%;
@@ -482,4 +482,30 @@ textarea {
 #copyright {
     margin-left: 1%;
     font-size: 70%;
+}
+
+/*subscription*/
+
+#subscription_form_container {
+    background-color: rgba(211, 216, 211, 0.5);
+    border:  rgba(211, 216, 211, 0.7) solid 1px;
+    border-radius: 3%;
+}
+.subscription_form label {
+    text-decoration: none;
+    color: #263640;
+    font-size: 90%;
+    margin-left: 7%;
+}
+
+.subscription_form #email {
+    width: 60%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+}
+
+.subscribe-button {
+    height: 2rem;
+
 }

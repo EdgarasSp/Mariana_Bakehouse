@@ -118,11 +118,11 @@
                     <div id="home_form_container">
                         <form method="post" action="https://formdump.codeinstitute.net" class="main-contact-form" target="_blank">
                             <label for="username"></label>
-                            <input type="text" id="name" name="user_name" class="text-input" placeholder="Your Contact Name">
+                            <input type="text" id="name" name="user_name" class="text-input" placeholder="Your Contact Name" required>
                             <label for="email"></label>
-                            <input type="email" id="email" name="user_email" class="text-input" placeholder="Your Contact Email">
+                            <input type="email" id="email" name="user_email" class="text-input" placeholder="Your Contact Email" required>
                             <label for="usermessage"></label>
-                            <textarea type="email" id="usermessage" name="user_message" class="text-input" rows="10" cols="50" placeholder="Your Message"></textarea>
+                            <textarea type="email" id="usermessage" name="user_message" class="text-input" rows="10" cols="50" placeholder="Your Message" required></textarea>
                             <input type="submit" class="send-button vertical-center-cont-button" value="Send Message">
                         </form>    
                     </div>
@@ -251,14 +251,16 @@
             <div id="footer_subscribe" class="footer_container">
                 <p class="center-align-h1">Subscribe to our Newsletter</p>
                 <!-- this is sub form START-->
-                <form method="post" action="https://formdump.codeinstitute.net" class="subscription_form" target="_blank">
-                    <label for="weekly">Weekly</label>
-                    <input type="radio" id="weekly" name="sub_preference" value="weekly" required>
-                    <label for="monthly">Monthly</label>
-                    <input type="radio" id="monthly" name="sub_preference" value="monthly" required>
-                    <input type="email" id="email" name="email_address" class="text-input" placeholder="Enter your email" required>
-                    <input type="submit" class="subscribe-button vertical-center-cont-button" value="Subscribe">
-                </form>  
+                <div id="subscription_form_container">
+                    <form method="post" action="https://formdump.codeinstitute.net" class="subscription_form" target="_blank">
+                        <label for="weekly">Weekly</label>
+                        <input type="radio" id="weekly" name="sub_preference" value="weekly" required>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" id="monthly" name="sub_preference" value="monthly" required>
+                        <input type="email" id="email" name="email_address" class="text-input" placeholder="Enter your email" required>
+                        <input type="submit" class="subscribe-button" value="Subscribe">
+                    </form>  
+                </div>
                 <!-- this is sub form END-->  
             </div>
             <div id="footer_nav_links" class="footer_container">
