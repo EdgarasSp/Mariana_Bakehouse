@@ -410,10 +410,10 @@ hr {
     margin: 0% 0%;
 
 }
-/* footer placeholder */
+/* footer */
 
-#placeholder {
-    background-color: #1C1B1B;
+#footer_container {
+    background-color: #E7F0EF; 
     height: 200px;
     width:auto;
     margin-top: 40px;
