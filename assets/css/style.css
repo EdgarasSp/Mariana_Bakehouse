@@ -316,7 +316,7 @@ hr {
 
 #home_contact_media {
     background-image: url("/assets/images/shop/open_sign.jpg");
-    height: 510px; 
+    max-height: 510px; 
     max-width: 100%;
 }
 
