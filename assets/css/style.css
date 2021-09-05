@@ -83,7 +83,7 @@ header {
 }
 /*banner button*/
 
-.shop-button {
+.shop-button, .send-button {
     height: 2.5rem;
     width: 8rem;
     background-color: #263640;
@@ -93,7 +93,7 @@ header {
     text-transform: uppercase;
 }
 
-.shop-button:hover {
+.shop-button:hover, .send-button:hover {
     background-color: #EBF2F1;
     color: #263640;
     border-style: solid;
@@ -330,7 +330,6 @@ hr {
     
 }
 .main-contact-form {
-    background-color: #E7F0EF;
     text-align: center;
     display:grid ;
     height: 100%;
@@ -339,17 +338,25 @@ hr {
 }
 
 .text-input {
-    background-color: #fff;
+    background-color: rgba(211, 216, 211, 0.3);
     color: #263640;
     width: 80%;
     height: 30px;
     margin: 5px 40px;
     border-radius: 2px;
-    border: #263640 solid 1px;
+    border: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
 .main-contact-form textarea {
     height: 180px;
     font-size: inherit;
     font-family: inherit;
+}
+
+.main-contact-form .vertical-center-cont-button {
+    position: relative;
+}
+
+.send-button:hover {
+    border: #263640 solid 1px;
 }
