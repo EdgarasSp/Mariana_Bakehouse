@@ -371,6 +371,7 @@ hr {
     color: #263640;
     margin: 0px 3.1%;
     width: 10%;
+    min-width: 150px;
     height: 200px;
     overflow: hidden;
     position: relative;
@@ -384,7 +385,7 @@ hr {
 }
 
 .feedback_title {
-    max-height: 50px;
+    max-height: 30px;
     width: 100%;
     font-size: 100%;
     border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
@@ -392,9 +393,10 @@ hr {
 
 .feedback_message {
     max-height: 110px;
+    min-height: 110px;
     width: 100%;
-    font-size: 100%;
-    margin-bottom: 20px;
+    font-size: 90%;
+    margin-bottom: 10px;
     overflow: hidden;
     border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
 }
