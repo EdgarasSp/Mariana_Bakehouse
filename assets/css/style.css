@@ -448,29 +448,33 @@ textarea {
 }
 
 #footer_nav_links p {
-    margin: 20px 2%;
+    margin: 20px 6%;
     text-align: right;
     font-weight: 600;
     font-size: 100%;
 }
 
-/* social */
+/* social and links*/
 
-.social-networks{
+.social-networks, .footer_links {
     text-align: left;
     margin:  1% 6%;
     list-style-type: none;
 }
 
-.social-networks i {
+.social-networks i, .footer_links i {
     font-size: 160%;
     margin: 1%;
     color: #263640;
 }
-.social-networks li a {
+.social-networks li a, .footer_links li a {
     text-decoration: none;
     color: #263640;
     font-size: 90%;
+}
 
-
+.footer_links {
+    text-align: right;
+    margin:  1% 6%;
+    text-decoration: underline;
 }
