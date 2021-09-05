@@ -96,7 +96,7 @@ header {
 .shop-button:hover, .send-button:hover, .subscribe-button:hover {
     background-color: #EBF2F1;
     color: #263640;
-    border-style: solid;
+    border: #263640 solid 1px;
     border-radius: 3%;
     font-weight: 600;
 }
@@ -250,6 +250,7 @@ hr {
 .contact-button:hover {
     border-style: solid;
     background-color: #b5b9b9;
+    border: #fff solid 1px;
     border-radius: 3%;
 }
 .vertical-center-cont-button {
