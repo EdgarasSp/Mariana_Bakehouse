@@ -3,7 +3,7 @@
 # MARIANA BAKEHOUSE
 
 ### Table of Contents  
-[1. About](#1-about)  
+[1. Introduction](#1-introduction)  
 [2. Initial Development](#2-initial-development)   
 &nbsp;&nbsp;&nbsp; [2.1. Use Case](#21-use-case)   
 &nbsp;&nbsp;&nbsp; [2.2. Build](#22-build)   
@@ -33,54 +33,139 @@
 
 
 
-## 1. **About**
+## 1. **Introduction**
 ##### [Table of Content](#table-of-contents)
 ---
-> STATUS: UPDATE
-* A brief description of your project
+> STATUS: DRAFT v0.1
 
+Project designed to help a local bakery to be more accessible and expand its reach to all customers 24/7 via the digital storefront. This website provides a platform for ordering baked products and a way to engage with the bakery should the customer have any queries. To aid the customer, the website host visual and assisted information about the products and additional “About”, “Order”, “Contact” and “Gallery” pages for additional information. 
 
+Website sole purpose is to provide customers with a streamlined ordering service via the digital storefront, catering for both personal and corporate events. The majority of the bakeries accommodate over the phone ordering service and/or in-shop service only, consequential excluding a portion of potential customers due to various limitations. This website tries to address this issue by catering for all customers, with accessible and stress-free ordering service available 24/7.
 
-* what it is used for
-* and how does life get wesome when someone starts to use it.
 
 ## 2. **Initial Development** 
 ##### [Table of Content](#table-of-contents)
 ---
-### 2.1.  **Use Case**
+> STATUS: UPDATE
 
-* Who is using the website
-* What the user want to do
-*	The user's goal
-*	The steps the user takes to accomplish a particular task
-*	How the website should respond to an action
+### 2.1.  **Use Case**
+<br>
+
+#### **Target Audience:**
+* Local customers and businesses.
+* Customers with accessibility restrictions.
+* 18 to 55 age bracket.
+* Family-centred.
+* Mid to high income.
+* Seeks luxury products.
+
+#### **Customer Stories:**
+* Browse products in their own time without pressure from the bakery.
+* Access information about the baked goods or bakery.
+* Order products without a need to verbally engage with the bakery staff. 
+* Contact the bakery outside normal working hours.
+
+#### **Customer UX Requirments:**
+1. View product information.
+2. View bakery Information.
+3. Order products.
+4. Request products.
+5. Contact the bakery.
+
+#### **Customer UX Requirment Solution:**
+1. To view Product information:
+
+	Customers can hover over the product image on the home page featured products section or by customer navigating to the order page via the navbar and/or the footer “ORDER” link or via “SHOP NOW” or “ORDER” buttons located on the home page. 
+
+	>View Steps - PLACHOLDER: img or gif
+
+2. To view Bakery Information:
+
+	Information is available on the bottom of the "Home" page in the “LET US GET TO KNOW EACH OVER” section or by acustomer navigating to the “ABOUT” page via the link located in the navbar or the footer.
+
+	>View Steps - PLACHOLDER: img or gif
+
+3. To Order:
+
+	Customers can navigate to the order page via the navbar and/or the footer “ORDER” link or by navigating via “SHOP NOW” or “ORDER” buttons located on the home page.
+
+	The customer then has to specify quantities in the QTY box under each desired product, then the customer completes the "Submit Your Order" form and then to confirm customer must press the "Request Order" button.
+
+	>View Steps - PLACHOLDER: img or gif
+
+4.  To view Request product:
+
+	Customers can request special orders via the "CONTACT US" button located on the "Home" page under the "BESPOKE CAKES AND PASTRIES" section. This button will redirect the user to the "CONTACT" page. The request form can also be accessed by navigating via the navbar and/or the footer “CONTACT” link.
+
+	The user then must complete the "CONTACT" form with details and choosing "Custom Order" under the "Enquiry Reason" field. Customers to confirm and send the form must press the "Submit Message" button.
+
+	>View Steps - PLACHOLDER: img or gif
+
+5.  To Contact:
+
+	Customers can access the basic contact form at the bottom of the "Home" page access a full form by navigating via the navbar and/or the footer “CONTACT” link.
+
+	The user then must complete the "CONTACT" form with details and send the form by pressing the "Submit Message" button.
+
+	>View Steps - PLACHOLDER: img or gif
 
 ### 2.2. **Build**
+<br>
 
 #### 2.2.1. **Languages**
 
-Placeholder Text
+Site uses HTML and CSS programming languages.
+
+* [HTTP5](https://en.wikipedia.org/wiki/HTML5) - Hypertext Markup Language - Version 5.2
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Cascading Style Sheets - Level 3
 
 #### 2.2.2. **Wireframe**
 
-Placeholder Text
+Site was intialy designed using the [Balsamiq](https://balsamiq.com/) wireframe tool. Wireframes enabled to mock up and test layout designs in order to accomodate variouse media screen sizes.
+
+ Wireframe page designs areaccesable via below links:
+ >PLACEHOLDER: Insert Links
+* [Home](#)
+* [About](#)
+* [Order](#)
+* [Contact](#)
+* [Gallery](#)
 
 #### 2.2.3. **Images**
 
-Placeholder Text
+Images for the site were obtain from free stock photos and video image website [www.pexels.com](https://www.pexels.com/). All photos and videos have been credited under section [7.1. Credits](#7-credits). Collections can also be accessed via links below:
+
+ >PLACEHOLDER: Insert Links
+* Photo collection [here](####).
+* Media collection [here](####).
 
 #### 2.2.4. **Color**
 
-Placeholder Text
+>PLACEHOLDER: Insert Links
+
+Dominant muted color was determined using the [Adobe Color](https://color.adobe.com/create/image) tool and the image used for the color extraction was the cover photo [Preview or print screen?](#).
+
+Complimentary colors were generated using [ColorSpace](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+
+Website color pallet:
+* Dominant:	[#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Complement: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Acent: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Text A: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Text B: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+
 
 #### 2.2.5. **Fonts**
 
-Placeholder Text
+Google Fonts
+
+Font Awesome 
 
 #### 2.2.6. **Accessibility**
 
 Placeholder Text
 
+https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23F2D6B3%0D%0A%23B6A99A%0D%0A%239ED1BD%0D%0A%2399B0A7%0D%0A%23FFF%0D%0A%23007662%0D%0A%23241000%0D%0A%23263640%0D%0A%23EBF2F1%0D%0A%23D4D2BD%0D%0A%2373AEA5%0D%0A%23D99B66%0D%0A%23B08969%0D%0A%23EA9999%0D%0A%231c1b1b%0D%0A%231b1b1b%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa
 
 ## 3. **Features**
 ##### [Table of Content](#table-of-contents)
