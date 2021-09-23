@@ -1,4 +1,4 @@
-![Logo](assets/images/logo/mariana_bakehouse_logo_logomaker.png )
+<a href="https://imgur.com/MsE0yso"><img src="https://i.imgur.com/MsE0yso.png" title="source: imgur.com - README_COVER" /></a>
 
 # MARIANA BAKEHOUSE
 
@@ -8,14 +8,16 @@
 &nbsp;&nbsp;&nbsp; [2.1. Use Case](#21-use-case)   
 &nbsp;&nbsp;&nbsp; [2.2. Build](#22-build)   
 [3. Features](#3-features)  
-&nbsp;&nbsp;&nbsp; [3.1. Home](#31-home)  
-&nbsp;&nbsp;&nbsp; [3.2. About](#32-about)  
-&nbsp;&nbsp;&nbsp; [3.3. Order](#33-order)  
-&nbsp;&nbsp;&nbsp; [3.4. Contact](#34-contact)  
-&nbsp;&nbsp;&nbsp; [3.5. Gallery](#35-gallery)  
+&nbsp;&nbsp;&nbsp; [3.1. Header and Footer](#31-header-and-footer)   
+&nbsp;&nbsp;&nbsp; [3.2. Home](#32-home)  
+&nbsp;&nbsp;&nbsp; [3.3. About](#33-about)  
+&nbsp;&nbsp;&nbsp; [3.4. Order](#34-order)  
+&nbsp;&nbsp;&nbsp; [3.5. Contact](#35-contact)  
+&nbsp;&nbsp;&nbsp; [3.6. Gallery](#36-gallery)  
 [4. Testing](#4-testing)   
-&nbsp;&nbsp;&nbsp; [4.1. Integrity](#41-integrity)  
-&nbsp;&nbsp;&nbsp; [4.2. Build](#42-build)  
+&nbsp;&nbsp;&nbsp; [4.1. Bugs and Fixes](#41-bugs-and-fixes)  
+&nbsp;&nbsp;&nbsp; [4.2. Integrity](#42-integrity)  
+&nbsp;&nbsp;&nbsp; [4.3. Build](#43-build)  
 [5. Road Map](#5-road-map)    
 &nbsp;&nbsp;&nbsp; [5.1. Esential Features](#51-esential-features)  
 &nbsp;&nbsp;&nbsp; [5.2. Additional Features](#52-additional-features)  
@@ -30,28 +32,25 @@
 [8. Disclaimer](#8-disclaimer)
 
 
-
-
-
-## 1. **Introduction**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: DRAFT v0.1
-
-Project designed to help a local bakery to be more accessible and expand its reach to all customers 24/7 via the digital storefront. This website provides a platform for ordering baked products and a way to engage with the bakery should the customer have any queries. To aid the customer, the website host visual and assisted information about the products and additional “About”, “Order”, “Contact” and “Gallery” pages for additional information. 
-
-Website sole purpose is to provide customers with a streamlined ordering service via the digital storefront, catering for both personal and corporate events. The majority of the bakeries accommodate over the phone ordering service and/or in-shop service only, consequential excluding a portion of potential customers due to various limitations. This website tries to address this issue by catering for all customers, with accessible and stress-free ordering service available 24/7.
-
-
-## 2. **Initial Development** 
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
-
-### 2.1.  **Use Case**
+# **1. Introduction**
+> ##### [Table of Content](#table-of-contents)
 <br>
 
-#### **Target Audience:**
+Project is intended to help a local bakery to be more accessible and expand it's reach to all customers via the digital storefront 24/7. This website provides a platform for ordering baked products and a way for customer to contact the bakery with any queries or special requests. To aid the customer, the website host visual and assisted information about the products and additional “About”, “Order”, “Contact” and “Gallery” pages for additional information. 
+
+Websites sole purpose is to provide for new and existing customers a streamlined ordering service via the digital storefront for both personal and corporate events. 
+
+The majority of the bakeries accommodate only over the phone ordering service and/or in-shop service only, consequentialy excluding a portion of potential customers due to accesability limitations. This website tries to address this issue by catering for all customers, with accessible and stress-free ordering service available 24/7.
+
+<br>
+
+# **2. Initial Development** 
+> ##### [Table of Content](#table-of-contents)
+<br>
+
+## **2.1.  Use Case**
+
+### **Target Audience:**
 * Local customers and businesses.
 * Customers with accessibility restrictions.
 * 18 to 55 age bracket.
@@ -59,31 +58,27 @@ Website sole purpose is to provide customers with a streamlined ordering service
 * Mid to high income.
 * Seeks luxury products.
 
-#### **Customer Stories:**
+### **Customer Stories:**
 * Browse products in their own time without pressure from the bakery.
 * Access information about the baked goods or bakery.
 * Order products without a need to verbally engage with the bakery staff. 
 * Contact the bakery outside normal working hours.
 
-#### **Customer UX Requirments:**
+### **Customer UX Requirments:**
 1. View product information.
 2. View bakery Information.
 3. Order products.
 4. Request products.
 5. Contact the bakery.
 
-#### **Customer UX Requirment Solution:**
+### **Customer UX Requirment Solution:**
 1. To view Product information:
 
 	Customers can hover over the product image on the home page featured products section or by customer navigating to the order page via the navbar and/or the footer “ORDER” link or via “SHOP NOW” or “ORDER” buttons located on the home page. 
 
-	>View Steps - PLACHOLDER: img or gif
-
 2. To view Bakery Information:
 
 	Information is available on the bottom of the "Home" page in the “LET US GET TO KNOW EACH OVER” section or by acustomer navigating to the “ABOUT” page via the link located in the navbar or the footer.
-
-	>View Steps - PLACHOLDER: img or gif
 
 3. To Order:
 
@@ -91,15 +86,11 @@ Website sole purpose is to provide customers with a streamlined ordering service
 
 	The customer then has to specify quantities in the QTY box under each desired product, then the customer completes the "Submit Your Order" form and then to confirm customer must press the "Request Order" button.
 
-	>View Steps - PLACHOLDER: img or gif
-
 4.  To view Request product:
 
 	Customers can request special orders via the "CONTACT US" button located on the "Home" page under the "BESPOKE CAKES AND PASTRIES" section. This button will redirect the user to the "CONTACT" page. The request form can also be accessed by navigating via the navbar and/or the footer “CONTACT” link.
 
 	The user then must complete the "CONTACT" form with details and choosing "Custom Order" under the "Enquiry Reason" field. Customers to confirm and send the form must press the "Submit Message" button.
-
-	>View Steps - PLACHOLDER: img or gif
 
 5.  To Contact:
 
@@ -107,187 +98,307 @@ Website sole purpose is to provide customers with a streamlined ordering service
 
 	The user then must complete the "CONTACT" form with details and send the form by pressing the "Submit Message" button.
 
-	>View Steps - PLACHOLDER: img or gif
+## **2.2. Build**
 
-### 2.2. **Build**
-<br>
-
-#### 2.2.1. **Languages**
+### **2.2.1. Languages**
 
 Site uses HTML and CSS programming languages.
 
 * [HTTP5](https://en.wikipedia.org/wiki/HTML5) - Hypertext Markup Language - Version 5.2
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Cascading Style Sheets - Level 3
 
-#### 2.2.2. **Wireframe**
+### **2.2.2. Wireframe**
 
-Site was intialy designed using the [Balsamiq](https://balsamiq.com/) wireframe tool. Wireframes enabled to mock up and test layout designs in order to accomodate variouse media screen sizes.
+Site was designed using the [Balsamiq](https://balsamiq.com/) wireframe toolset. Wireframes enabled to mock up and test layout designs to accomodate variouse media screen sizes.
 
- Wireframe page designs areaccesable via below links:
- >PLACEHOLDER: Insert Links
-* [Home](#)
-* [About](#)
-* [Order](#)
-* [Contact](#)
-* [Gallery](#)
+ Wireframe page designs were based on 4 screen sizes, designs are accesable via below links:
+ 
+* [1200px](https://i.imgur.com/tSJLDRs.png)
+* [1024px](https://i.imgur.com/3EMehPY.png)
+* [768px](https://i.imgur.com/bbp9b4m.png)
+* [420px](https://i.imgur.com/z1SWSe0.png)
 
-#### 2.2.3. **Images**
 
-Images for the site were obtain from free stock photos and video image website [www.pexels.com](https://www.pexels.com/). All photos and videos have been credited under section [7.1. Credits](#7-credits). Collections can also be accessed via links below:
+### **2.2.3. Images**
 
- >PLACEHOLDER: Insert Links
-* Photo collection [here](####).
-* Media collection [here](####).
+Site photos and media files were obtain from a free stock photos and video image website [www.pexels.com](https://www.pexels.com/). All photos and videos have been credited under section [7.1. Credits](#7-credits). Photo and Video collections can be viewed using the links below:
 
-#### 2.2.4. **Color**
+* Photo collection [here](https://www.pexels.com/collections/mariana-photo-collection-y662jdw/)
+* Media collection [here](https://www.pexels.com/collections/mariana-media-collection-z8qz7nj/)
 
->PLACEHOLDER: Insert Links
+The cover page was edited to include the bakery name using [Paint 3D](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab).
 
-Dominant muted color was determined using the [Adobe Color](https://color.adobe.com/create/image) tool and the image used for the color extraction was the cover photo [Preview or print screen?](#).
+Logo was created using web based design tool [Logomaker](https://www.logomaker.com/).
 
-Complimentary colors were generated using [ColorSpace](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+### **2.2.4. Color**
+
+Dominant color was matched againts the extracted complement color using the [Adobe Color](https://color.adobe.com/create/image) tool and the image used for the complement color identification and extraction was the [cover photo](https://i.imgur.com/8fpD2NI.png).
+
+
+Dominant color was generated using [ColorSpace](https://mycolor.space.com).
 
 Website color pallet:
-* Dominant:	[#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
-* Complement: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
-* Acent: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
-* Text A: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
-* Text B: [#fff](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Dominant:		[#263640](https://mycolor.space/?hex=%23263640&sub=1)
+* Complement: 	[#EBF2F1](https://mycolor.space/?hex=%23EBF2F1&sub=1)
+* Text A: 		[#1C1B1B](https://mycolor.space/?hex=%231C1B1B&sub=1)
+* Text B: 		[#E7F0EF](https://mycolor.space/?hex=%23E7F0EF&sub=1)
 
 
-#### 2.2.5. **Fonts**
+### **2.2.5. Fonts**
 
-Google Fonts
+Text fonts obtained from [Google Fonts](https://fonts.google.com/).
 
-Font Awesome 
+* Headings: [Signika](https://fonts.google.com/specimen/Signika#standard-styles)
+* Text:  	[Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
-#### 2.2.6. **Accessibility**
+Website Icons obtained from [Font Awsome](https://fontawesome.com/).
 
-Placeholder Text
+Icon List:
+* [Facebook](https://fontawesome.com/v5.15/icons/facebook?style=brands)
+* [Twitter](https://fontawesome.com/v5.15/icons/twitter-square?style=brands)
+* [Instagram](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+* [Copyright](https://fontawesome.com/v5.15/icons/copyright?style=regular)
 
-https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23F2D6B3%0D%0A%23B6A99A%0D%0A%239ED1BD%0D%0A%2399B0A7%0D%0A%23FFF%0D%0A%23007662%0D%0A%23241000%0D%0A%23263640%0D%0A%23EBF2F1%0D%0A%23D4D2BD%0D%0A%2373AEA5%0D%0A%23D99B66%0D%0A%23B08969%0D%0A%23EA9999%0D%0A%231c1b1b%0D%0A%231b1b1b%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa
+### **2.2.6. Accessibility**
 
-## 3. **Features**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
+Website has been designed to meet accesability requirments, key areas were:
 
-### 3.1. **Home**
+* __Contrast__
 
-Placeholder Text
+	* Site foreground and background color combos were tested using [Contrast Grid](https://contrast-grid.eightshapes.com/) to comply with WCAG 2.0 minimum contrast requirments. 
 
-### 3.2. **About**
+	* Website contrast grind:  [Mariana Bakehouse](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23263640%2C%20Dominant%0D%0A%23EBF2F1%2CComplement%0D%0A%231C1B1B%2C%20Text%20A%0D%0A%23E7F0EF%2C%20Text%20B%0D%0A%20&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa)
 
-Placeholder Text
+* __Images and media__
 
-### 3.3. **Order**
+	* All images and media were taged using <######> to aid visualy impared and to display description when images do not load.
 
-Placeholder Text
+* __Forms and input__
 
-### 3.4. **Contact**
+	* All forms were taged using <######> to aid visualy impared and to display description when images do not load.
 
-Placeholder Text
+<br>
 
-### 3.5 **Gallery**
+# **3. Features** 
+> ##### [Table of Content](#table-of-contents)
+<br>
 
-Placeholder Text
+## **3.1. Header and Footer**
 
-## 4. **Testing**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
+* __Logo__ - Each page displays a company logo. Logo uses same dominant color for consistancy, also when clicked on, it will direct user back to the home page for ease of navigation.
 
-### 4.1. **Integrity**
+	<a href="https://imgur.com/ZqvqHOb"><img src="https://i.imgur.com/ZqvqHOb.png" title="source: imgur.com - Logo" /></a>
 
-Placeholder Text
+<br>
 
-#### 4.1.1. **Media**
+* __Navbar__ - Navigation bar show on every page position in the center of the page for ease of use. Designed in this way to provide an intuative way to navigate to other pages within the wbsite. 
 
-Placeholder Text
+	Navbar has interactive features, such as hover over feature which set text to display in bold, and when user clicks on the navigational link, relative navbar tab will display in Bold telling user which page they are currently browsing.
 
-#### 4.1.2. **Links**
+	<a href="https://imgur.com/lUzja8a"><img src="https://i.imgur.com/lUzja8a.png" title="source: imgur.com - Navbar" /></a>
 
-Placeholder Text
+<br>
 
-#### 4.1.3. **Forms**
+* __Footer__ - Footer was designed to include 3 key sections, social, subscribe to the newsletter and suporting navigational links. Footer is show on all pages to create a consistant look and feel.
 
-Placeholder Text
+	* To the left, listed social accounts Facebook, Twitter and Instagram account, each text hyperlinked to the relative site.
+	* In the center, user has option to subscribe to the newsletter and choose frequancy werrkly or monthly.
+	* To the right, listed navigational links to help users to navigat to other pages without a need to return to the top of the page.
 
-#### 4.1.4. **Accesability**
+	<a href="https://imgur.com/9Xdeyo6"><img src="https://i.imgur.com/9Xdeyo6.png" title="source: imgur.com" /></a>
 
-Placeholder Text
+## **3.2. Home**
 
-### 4.2. **Build**
+Home page designed to provide a snippit of what is available on the website. There are distict line brakes for each section and responcive navbar and footer for assisted navigation.
 
-#### 4.2.1. **Performance**
 
-Placeholder Text
+* __Cover Image__ - Added to indicate clearly the purpose for the site, image showing bakery products and company name. Additonaly cover page has "SHOP NOW" button for user to navigate directly to the "ORDER" page.
 
-#### 4.2.2. **Optimisation**
+* __Featured Products__ - Section added to provide a quick way to see and view the most favourite products supplied by the bakery. Button "VIEW" added to each product redirecting user to the "ORDER" page.
 
-Placeholder Text
+* __Special Orders__ - Section added to indicate that special orders are accepted and allow user quickly navigate to the necessary page to place an order. Button "CONTACT US" was added, when user clicks ouser will be redirected to the "CONTACT" page where they can place the special order using the form provided.
 
-## 5. **Road Map**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
+* __About "Snippit"__ - Section added to give a quick description about the bakery. A complimentary video added showcasing a cake being sliced to encourage a positive emotion and craving.
 
-### 5.1. **Esential Features**
+* __"Quick" Contact__ - Section added to give a quick method to send a message to the bakery without a need to navigate to the "CONTACT" page. Message can be sent directly from the Home page using the form provided and submiting by pressing button "SEND MESSAGE".
 
-Placeholder Text
+* __Feedback__ - Section added to provide feedback received from the existing customers to reasure new customers about the quality of the product produced by the bakery. Feedback has been received using the "CONTACT" form and not via 3rd party review application or websites.
 
-1. Placeholder Text
-2. Placeholder Text
-
-### 5.2. **Additional Features**
+## **3.3. About**
 
 Placeholder Text
 
-1. Placeholder Text
-2. Placeholder Text
-
-## 6. **Deployment**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
-
-### 6.1. **Deployment to GitHub**
+## **3.4. Order**
 
 Placeholder Text
 
-### 6.2. **Cloning on GitHub**
+## **3.5. Contact**
 
 Placeholder Text
 
-## 7. **Credits**
-##### [Table of Content](#table-of-contents)
----
-> STATUS: UPDATE
-
-### 7.1. **Code**
+## **3.6 Gallery**
 
 Placeholder Text
 
-### 7.2. **Images**
+<br>
+
+# **4. Testing**
+> ##### [Table of Content](#table-of-contents)
+<br>
+
+## **4.1. Bugs and Fixes**
 
 Placeholder Text
 
-### 7.3. **Media**
+
+```html
+<section id="banner-container">
+            <div id="banner-image"></div>
+            <div class="vertical-center-button">
+                <input type="button" onclick="location.href='/pages/order.html'" class="shop-button" value="Shop Now" >
+            </div>
+        </section>
+```
+
+## **4.2. Integrity**
+
 Placeholder Text
 
-### 7.4. **Content**
+### **4.2.1. Media**
 
 Placeholder Text
 
-### 7.4.1. **Text**
-
-Placeholder Text
-### 7.4.2 **Proof-Read**
+### **4.2.2. Links**
 
 Placeholder Text
 
-## 8. **Disclaimer**
-##### [Table of Content](#table-of-contents)
----
+### **4.2.3. Forms**
 
-	The content of this Website is for educational purposes only.
+Placeholder Text
+
+### **4.2.4. Accesability**
+
+Placeholder Text
+
+## **4.3. Build**
+
+### **4.3.1. Performance**
+
+Placeholder Text
+
+### **4.3.2. Optimisation**
+
+Placeholder Text
+
+# **5. Road Map**
+> ##### [Table of Content](#table-of-contents)
+<br>
+
+## **5.1. Esential Features**
+
+There are 4 esential features to implement in the future:
+
+1. __Form Submision Confirmation__
+	* Create a visual confirmation that the contact forms have been sent to the baker. Either via a pop up or visual change to the "Submit" or "Send" button.
+2. __User Profile__
+	* To provide order history, order status and to store client details for fast track shoping experiance.
+3. __Shopping Basket__
+	* To allow customers to add items and manage items in the basket. Also to show customers subtotal for the order.
+4. __Online Payment Option__
+	* To stream line the shoping experiance and allow customer to pay for the order at the point of ordring rather than pay at the point of collection or delivery.
+
+## **5.2. Additional Features**
+
+There are 2 non-esential features to implement in the future:
+
+1. __Discounts__
+	* Develope a discount function within the site, including discount codes and discounts based on quantities ordered.
+
+2. __Direct Image Upload__
+	* Create an option to upload an example picture of a product within the special orders form.
+
+# **6. Deployment**
+> ##### [Table of Content](#table-of-contents)
+<br>
+
+## **6.1. Deployment to GitHub**
+
+The project was developed using [GitPod](https://gitpod.io/), pushed to [GitHub Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) and deployed via GitHub pages. The steps to deploy outlined below:
+
+
+The Code Institute provided a [template](https://github.com/Code-Institute-Org/gitpod-full-template) which was cloned and used for the main structure of the repository, then created into a GitPod repository. To achieve the above, the below below process can be followed for deployment:
+
+1. Go to the [GitHub Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) home page.
+2. Click "Settings" in the ribbon of links below the title of the project.
+3. Click "Pages" on the side bar.
+4. Select "Branch: main" where it asks for the source.
+5. Hit "Save" and wait for a few minutes.
+6. Refresh the page and click the green link with the deployed page [deployed page](######).
+
+## **6.2. Cloning on GitHub**
+
+You will need to have a [GitHub ](https://github.com) account and it is adviced to install the [GitPod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). To clone the project into your own repository follow the below steps :
+
+1. Log in to your [GitPod account](https://gitpod.io/) .
+2. Open the [Project Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) in a new tab.
+3. Click on the green "GitPod" button to the top right of the project.
+4. This will automatically create a new GitPod workspace for you to work on.
+5. You can type in any name of your choosing.
+
+<br>
+
+# **7. Credits**
+> ##### [Table of Content](#table-of-contents)
+<br>
+
+## **7.1. Code**
+
+Website was created using primerally code tought by Code Institue during first module, to help with some difficulties below sites were used:
+
+* __W3 Schools__ - To research both HTML and CSS, key arease were position absolute and relative, flex boxes and units of meassure. 
+
+* __Stack Overflow__ - To reaserch answers to a quries to help me to understand the reasons behind the implementation and to help understand trouboulshooting process.
+
+
+## **7.2. Images** 
+
+All image files used to create the website were under [Pexels](https://www.pexels.com/) "Free to use" license.
+
+| Page | Use | Website | Name |  Source | Photographer |  
+| :----- | :----- | :----- | :----- | :----- | :----- | 
+| Home | Cover | [Pexels](https://www.pexels.com/) | pexels-rachel-claire-5490820_modified.jpg | [Image](https://www.pexels.com/photo/crispy-baguettes-in-wooden-box-in-counter-of-cafe-5490820/) | [Rachel Claire](https://www.pexels.com/@rachel-claire) |
+| Home | Featured 1 | [Pexels](https://www.pexels.com/) | caramel_coconut_cake.jpg | [Image](https://www.pexels.com/photo/plate-of-cake-with-chocolate-frosting-2680603/) | [Anna Tukhfatullina](https://www.pexels.com/@myfoodie) |
+| Home | Featured 2 | [Pexels](https://www.pexels.com/) | honey_yougurt_cake.jpg | [Image](https://www.pexels.com/photo/cake-on-white-tray-2684556/) | [Anna Tukhfatullina](https://www.pexels.com/@myfoodie) |
+| Home | Featured 3 | [Pexels](https://www.pexels.com/) | almond_croissant.jpg | [Image](https://www.pexels.com/photo/close-up-photo-of-croissants-on-white-plate-1775037/) | [Mariana Kurnyk](https://www.pexels.com/@mariana-kurnyk-844465) |
+| Home | Featured 4 | [Pexels](https://www.pexels.com/) | chocolate_brownie.jpg | [Image](https://www.pexels.com/photo/close-up-photo-of-stacked-brownies-3026804/) | [Ella Olsson](https://www.pexels.com/@ella-olsson-572949) |
+| Home | Special | [Pexels](https://www.pexels.com/) | TBC | [Image](TBC) | [TBC](TBC) |
+| Home | Form | [Pexels](https://www.pexels.com/) | open_sign.jpg | [Image](https://www.pexels.com/photo/lady-employee-in-cafeteria-with-sign-open-6205476/) | [Tim Douglas](https://www.pexels.com/@tim-douglas) |
+
+
+## **7.3. Media**
+All media files used to create the website were under [Pexels](https://www.pexels.com/) "Free to use" license.
+
+| Page | Use | Website | Name | Source | Creator |  
+| :----- | :----- | :----- | :----- | :----- | :----- | 
+| Home | About | [Pexels](https://www.pexels.com/) | cake_slicing_video.mp4 | [Video](https://www.pexels.com/video/piece-of-white-cake-7550991/) | [Anna Nekrashevich](https://www.pexels.com/@anna-nekrashevich) |
+
+## **7.4. Content**
+
+Placeholder Text
+
+## **7.4.1. Text**
+
+Placeholder Text
+
+## **7.4.2 Proof-Read**
+
+Placeholder Text
+
+# **8. Disclaimer**
+> ##### [Table of Content](#table-of-contents)
+
+<br>
+
+The content of this Website is for educational purposes only. 
+-
+This website has been created for a fictional bakery and all information supplied within the site is fictional. Please do not use any information including diatery information in real life applications.
