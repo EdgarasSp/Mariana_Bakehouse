@@ -554,3 +554,25 @@ textarea {
     
 } */
 
+
+
+/* gallery media queries */
+
+@media screen and (max-width: 1024px) {
+    .album_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .album_container {
+        grid-template-columns: 1fr 1fr; /* may need to check as not showing in dev*/
+    }
+}
+
+@media screen and (max-width: 520px) { /*change to 480px later*/
+    .album_container {
+        grid-template-columns: 1fr; /* may need to check as not showing in dev*/
+    }
+}

@@ -324,7 +324,28 @@ to fix the issue found out that each image has to be in its own div wrapper and 
 ```
 
 
+issue with @media, property did not apply 768px and 420px did not apply in dev tools but ok in browser. showing both apply 1024px rule
 
+```css
+
+@media screen and (max-width: 1024px) {
+    .album_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .album_container {
+        grid-template-columns: repeat(1fr, 1fr);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .album_container {
+        grid-template-columns: repeat(1fr);
+    }
+}
+```
 
 ## **4.2. Integrity**
 
