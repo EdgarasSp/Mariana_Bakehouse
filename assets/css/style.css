@@ -291,10 +291,6 @@ hr {
     width: 50%;
 }
 
-#Home_contact_media {
-    background-color: #E7F0EF;
-}
-
 #home_about_info .center-align-h1 {
     text-align: center;
     margin: 40px 0px 15px 0px;
@@ -323,11 +319,14 @@ hr {
     letter-spacing: 0.1rem;
 }
 
+/* change to html imga src */
 #home_contact_media {
+    background-color: #E7F0EF;
     background-image: url("/assets/images/shop/open_sign.jpg");
     max-height: 510px; 
     max-width: 100%;
 }
+
 
 /* home page form*/
 
@@ -613,6 +612,24 @@ textarea {
     transition-delay: .3s;
  
  }
+
+/* contact page */
+
+/* change to html imga src */
+/*#contact_media {
+    min-width: 50%;
+ 
+}*/
+
+
+#contact_media img {
+    background-color: #E7F0EF;
+    max-height: 510px; 
+    width: 100%;
+    object-fit: cover;
+
+}
+
 
 /* gallery media queries */
 
