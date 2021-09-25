@@ -554,16 +554,17 @@ textarea {
     width: 100%;
     height: 100%;
     object-fit: cover;
+ 
 }
-    
+
 .album_item:hover .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     animation-name: image-zoom-out;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
-
+    animation-duration: .5s;
+    animation-fill-mode:forwards;
+    
 }
 
  @keyframes image-zoom-out {
@@ -574,6 +575,43 @@ textarea {
     to{
         transform: scale(1.1);
     }
+ }
+
+ .album_item .image_description {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #E7F0EF;
+    background-color: rgba(38, 54, 64, 0.8);
+    pointer-events: none;
+    z-index: 3;
+}
+
+ .album_item .image_description h1 {
+     color:#E7F0EF;
+     font-size: 2rem;
+     letter-spacing: 0.3rem;
+     text-transform:capitalize;
+     text-align: center;
+     margin: 0.5rem 0;
+ }
+ .album_item .image_description p {
+    color:#E7F0EF;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.album_item:hover .image_description {
+    opacity: 1;
+    animation-name: text_fade_in;
+    transition: opacity .5s;
+    transition-delay: .3s;
+ 
  }
 
 
