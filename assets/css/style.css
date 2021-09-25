@@ -614,14 +614,6 @@ textarea {
  
  }
 
-
-/*.album_item:hover .image img {
-    transform: scale (0.5);
-    
-} */
-
-
-
 /* gallery media queries */
 
 @media screen and (max-width: 1024px) {
