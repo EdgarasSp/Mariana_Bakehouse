@@ -260,7 +260,7 @@ Placeholder Text
         </section>
 ```
 
-issue with not showing grid images inline and is stacking images on top of each other, original code
+issue with not showing grid images inline and was stacking images on top of each other, or iin a single column when added additional div elements, original code below, but showing just 2 img elements for less space.
 
 ```html
         <setion class="album_container">
@@ -302,8 +302,28 @@ css code original
     object-fit: cover;
 ```
 
-
 to fix the issue found out that each image has to be in its own div wrapper and have same class applied.
+
+```html
+      <setion class="album_container"> <!--container-->
+             <div class="album_photo_container"> <!--gallery_container-->
+                <div class="album_item"> <!--gallery_item-->
+                    <div class="image"> <!--image-->
+                        <img src="/assets/images/gallery/SC_01-pexels-any-lane-5727978.jpg" class="album_photo" alt="mom and daughter decorating a sponge cake with chocolate" >
+                    </div>
+                </div>
+            </div>
+            <div class="album_photo_container">
+                <div class="album_item">
+                    <div class="image">        
+                        <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a srawberry cake placed on the table">
+                    </div>
+                </div>
+            </div>
+
+```
+
+
 
 
 ## **4.2. Integrity**
