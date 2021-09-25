@@ -525,7 +525,10 @@ textarea {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 300px;
     grid-gap: 10px;
-  
+}
+
+.row_span_2 {
+    grid-row: span 2;
 }
 
 .album_item {
@@ -545,9 +548,11 @@ textarea {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 50% 50%;
-    transition: .5 ease-in-out;
+    /*object-position: 50% 50%;
+    transition: .5 ease-in-out;*/
 }
+
+
 
 /*.album_item:hover .image img {
     transform: scale (0.5);

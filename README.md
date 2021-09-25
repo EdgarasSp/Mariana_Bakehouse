@@ -346,6 +346,8 @@ issue with @media, property did not apply 768px and 420px did not apply in dev t
     }
 }
 ```
+> grid issue had to use spam 2 rows to show portrait images correcty
+
 
 ## **4.2. Integrity**
 
