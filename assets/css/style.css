@@ -517,3 +517,24 @@ textarea {
 .subscribe-button {
     height: 2rem;
 }
+
+/* Gallery */
+
+section {
+    margin: 20px;
+    background-color: aqua;
+}
+
+
+
+.album_photo_container {
+    width: 100%;
+    Height: 100%;
+    position: relative;
+}
+
+.album_photo_container .album_photo_container {
+    width: 100%;
+    Height: 100%;
+    overflow: hidden;
+}
