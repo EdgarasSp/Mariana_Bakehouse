@@ -260,6 +260,52 @@ Placeholder Text
         </section>
 ```
 
+issue with not showing grid images inline and is stacking images on top of each other, original code
+
+```html
+        <setion class="album_container">
+            <h1> Social Celebrations</h1>
+            <div class="album_photo_container">
+                <div class="image">
+                    <img src="/assets/images/gallery/SC_01-pexels-any-lane-5727978.jpg" class="album_photo" alt="mom and daughter decorating a sponge cake with chocolate">
+                    <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a srawberry cake placed on the table">
+                                </div>
+            </div>
+        </setion>
+```
+
+css code original
+
+```css
+.album_container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+}
+
+.album_photo_container {
+    width: 100%;
+    Height: 100%;
+    position: relative;
+}
+
+.album_photo_container .image {
+    width: 100%;
+    Height: 100%;
+    overflow: hidden;
+}
+
+.album_photo_container .image img {
+    width: 100%;
+    Height: 100%;
+    object-fit: cover;
+```
+
+
+to fix the issue found out that each image has to be in its own div wrapper and have same class applied.
+
+
 ## **4.2. Integrity**
 
 Placeholder Text

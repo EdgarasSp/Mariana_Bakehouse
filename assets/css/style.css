@@ -525,7 +525,12 @@ section {
     background-color: aqua;
 }
 
-
+.album_container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+}
 
 .album_photo_container {
     width: 100%;
@@ -533,8 +538,14 @@ section {
     position: relative;
 }
 
-.album_photo_container .album_photo_container {
+.album_photo_container .image {
     width: 100%;
     Height: 100%;
     overflow: hidden;
+}
+
+.album_photo_container .image img {
+    width: 100%;
+    Height: 100%;
+    object-fit: cover;
 }
