@@ -846,6 +846,17 @@ input, textarea {
     padding-left: 10px;
 }
 
+    /*Diatary Information*/
+
+#dietary_info {
+    width: 80%;
+    margin: 0 10%;
+    padding: 2% 0%;
+    background-color: rgba(211, 216, 211, 0.5);
+    border-radius: 15px;
+    letter-spacing: .008rem;
+
+}
 
     /* gallery media queries */
 
