@@ -356,7 +356,6 @@ hr {
 
 .main-contact-form textarea {
     height: 180px;
-    font-size: 90%;
     font-family: inherit;
 }
 
@@ -615,19 +614,40 @@ textarea {
 
 /* contact page */
 
-/* change to html imga src */
-/*#contact_media {
-    min-width: 50%;
- 
-}*/
-
-
-#contact_media img {
+#main_contact_container_1 {
+    height: 600px;
     background-color: #E7F0EF;
-    max-height: 510px; 
-    width: 100%;
-    object-fit: cover;
+    background-image: url(/assets/images/shop/contact-mariah-green-5423254.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
+#form_containers {
+    margin: 0 27%; 
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+ }
+
+ .contact-page-form {
+    width: 100%;
+    text-align: center;
+ }
+
+ .contact-page-form textarea {
+     height: auto;
+     font-family: inherit;
+ }
+
+textarea {
+    padding-top: 5px;
+}
+
+input, textarea {
+    padding-left: 5px;
+}
+
+.contact-page-form .text-input {
+    background-color: rgba(211, 216, 211, 0.5);
 }
 
 
