@@ -651,18 +651,18 @@ input, textarea {
     background-color: rgba(211, 216, 211, 0.5);
 }
 
+.contact-page-form .vertical-center-cont-button {
+    margin-right: 100%;
+    margin-top: 5%;
+    position: relative;
+}
+
 /*contact us social*/
 
 .social_con_networks {
     text-align: center;
     margin: 0px;
     padding: 0px;
-}
-
-.contact-page-form .vertical-center-cont-button {
-    margin-right: 100%;
-    margin-top: 5%;
-    position: relative;
 }
 
 .social_con_networks li {
@@ -700,11 +700,12 @@ input, textarea {
     }
  }
 
+ /* contact company details */
+
  #comp_details {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    
  }
 
 .social_comp_item {
@@ -724,6 +725,11 @@ input, textarea {
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
+
+
+
+
 /* gallery media queries */
 
 @media screen and (max-width: 1024px) {
