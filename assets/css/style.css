@@ -496,7 +496,7 @@ textarea {
 #subscription_form_container {
     background-color: rgba(211, 216, 211, 0.5);
     border:  rgba(211, 216, 211, 0.7) solid 1px;
-    border-radius: 3%;
+    border-radius: 10px;
 }
 .subscription_form label {
     text-decoration: none;
@@ -677,7 +677,7 @@ input, textarea {
 }
 
 .social_list_item i:hover {
-    color: #cfd4d4;
+    color: #EBF2F1;
     animation-name: icon-zoom-in;
     animation-duration: .5s;
     animation-fill-mode:forwards;
@@ -693,12 +693,30 @@ input, textarea {
     }
  }
 
-/*.social_list_item a:hover {
-font-weight: 800;
-}*/
+ #comp_details {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+ }
 
+.social_comp_item {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    margin: 10px;
+    width: 300px;
+    height: 170px;
+ }
 
+ .social_comp_item p {
+     font-size: 90% ;
+ }
 
+ .social_comp_item h1 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
 /* gallery media queries */
 
 @media screen and (max-width: 1024px) {
