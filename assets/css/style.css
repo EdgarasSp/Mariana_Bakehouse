@@ -650,6 +650,54 @@ input, textarea {
     background-color: rgba(211, 216, 211, 0.5);
 }
 
+/*contact us social*/
+
+.social_con_networks {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social_con_networks li {
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0 10px;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 54, 64, 0.8);
+}
+
+.social_list_item a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 700%;  
+    font-weight: 500;
+}
+
+.social_list_item i:hover {
+    color: #cfd4d4;
+    animation-name: icon-zoom-in;
+    animation-duration: .5s;
+    animation-fill-mode:forwards;
+}
+
+ @keyframes icon-zoom-in {
+
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+ }
+
+/*.social_list_item a:hover {
+font-weight: 800;
+}*/
+
+
 
 /* gallery media queries */
 
