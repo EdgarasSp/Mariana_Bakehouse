@@ -345,7 +345,7 @@ hr {
     text-align: left;
 }
 
-.text-input {
+.text-input, .order-input {
     background-color: rgba(211, 216, 211, 0.3);
     color: #263640;
     width: 80%;
@@ -852,10 +852,17 @@ input, textarea {
     width: 80%;
     margin: 0 10%;
     padding: 2% 0%;
-    background-color: rgba(211, 216, 211, 0.5);
-    border-radius: 15px;
     letter-spacing: .008rem;
+}
 
+#order_form {
+    margin: 0 27%; 
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.order_form .text-input {
+    background-color: rgba(211, 216, 211, 0.5);
 }
 
     /* gallery media queries */
