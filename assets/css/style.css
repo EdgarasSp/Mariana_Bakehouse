@@ -728,15 +728,6 @@ input, textarea {
 
 /*Order Page products*/
 
-.main-prod-container {
-    border:yellow 1px solid;
-    text-align: center;
-}
-
-.prod-image, .prod-order {
-    border: blue 1px solid;
-}
-
 #products_container {
     text-align: center;
     width: auto;
@@ -747,7 +738,6 @@ input, textarea {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 400px;
     grid-gap: 10px;
-    border:red 1px solid;
 }
 
 .main-prod-container {
@@ -762,6 +752,7 @@ input, textarea {
     Height: 100%;
     overflow: hidden;
 }
+ /* order product img and info*/
 
 .main-prod-container .sub_prod-container .prod-image {
     width: 100%;
@@ -783,7 +774,6 @@ input, textarea {
     height: 35%;
     margin-top: 13px;
 }
-
 
  .main-prod-container .prod-info {
     opacity: 0;
@@ -821,6 +811,12 @@ input, textarea {
     transition-delay: .3s;
     top: 34%;
   }
+
+   /* order product sub-form*/
+
+.prod_order_table {
+    margin-top: 20px;
+}
 
 /* gallery media queries */
 
