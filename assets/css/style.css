@@ -818,7 +818,30 @@ input, textarea {
     margin-top: 20px;
 }
 
-/* gallery media queries */
+.prod_order_form {
+    width:100%;
+    height: 100%;  
+}
+
+.prod_order_form tr th {
+    padding-bottom: 10px;
+    font-size: 100%;
+    white-space: nowrap;
+}
+
+.prod_order_form tr td {
+    padding-bottom: 10px;
+    font-size: 90%;
+    white-space: nowrap;
+}
+
+.left_align {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+    /* gallery media queries */
 
 @media screen and (max-width: 1024px) {
     .album_container {
