@@ -789,7 +789,7 @@ input, textarea {
     opacity: 0;
     position: absolute;
     width: 100%;
-    height: 68.5%;
+    height: 69%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -801,7 +801,7 @@ input, textarea {
 
 .main-prod-container .prod-info h1 {
      color:#E7F0EF;
-     font-size: 2rem;
+     font-size: 100%;
      letter-spacing: 0.3rem;
      text-transform:capitalize;
      text-align: center;
@@ -809,7 +809,7 @@ input, textarea {
  }
  .main-prod-container .prod-info p {
     color:#E7F0EF;
-    font-size: 1rem;
+    font-size: 90%;
     text-align: center;
     margin: 10px;
 }
@@ -820,8 +820,7 @@ input, textarea {
     transition: opacity .5s;
     transition-delay: .3s;
     top: 34%;
- 
- }
+  }
 
 /* gallery media queries */
 
