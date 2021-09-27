@@ -758,16 +758,13 @@ input, textarea {
 
 .main-prod-container .sub_prod-container .prod-image {
     width: 100%;
-    height: 65%;
+    height: 68%;
 }
 
 .main-prod-container .sub_prod-container .prod-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation-name: image-zoom-out;
-    animation-duration: .5s;
-    animation-fill-mode:forwards;
 }
 
 .main-prod-container .sub_prod-container .prod-order {
@@ -780,7 +777,7 @@ input, textarea {
     opacity: 0;
     position: absolute;
     width: 100%;
-    height: 69%;
+    height: 68%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -816,7 +813,7 @@ input, textarea {
    /* order product sub-form*/
 
 .prod_order_table {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .prod_order_form {
