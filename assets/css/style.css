@@ -891,7 +891,12 @@ input, textarea {
     width: auto;
 }
 
-
+#order_form_info {
+    width: 80%;
+    margin: 0 10%;
+    padding: 2% 0%;
+    letter-spacing: .008rem;
+}
 
     /* gallery media queries */
 
