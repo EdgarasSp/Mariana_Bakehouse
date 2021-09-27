@@ -880,69 +880,46 @@
          </div> 
         <setion id="order_form_container">
 
-            <div class="home_contact">
-                <div id="home_contact_form" class="container_left">
+            <div class="order_submit_form">
+                <div class="order_contact_form container_left">
                     <div id="order_form">
-                        <!--<form method="post" action="https://formdump.codeinstitute.net" class="contact-page-form" target="_blank">-->
-                            <label for="fname"></label>
-                            <input type="text" id="fname" name="first_name" class="order-input" placeholder="First Name" required>
-                            <label for="lname"></label>
-                            <input type="text" id="lname" name="last_name" class="order-input" placeholder="Last Name" required>
-                            <label for="email"></label>
-                            <input type="email" id="email" name="user_email" class="order-input" placeholder="Your Email" required>
-                            <label for="phone"></label>
-                            <input type="tel" id="phone" name="user_phone" class="order-input" placeholder="Your Phone Number (Optional)" maxlength="13">                       
-                            <label for="usermessage"></label>
-                            <textarea type="text" id="usermessage" name="user_message" class="order-input" rows="20" cols="50" placeholder="Your Message" required></textarea>
+                        <h2>Your Details</h2>
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="first_name" class="order-input order_form_style" placeholder="First Name" required>
+                        <label for="lname"></label>
+                        <input type="text" id="lname" name="last_name" class="order-input order_form_style" placeholder="Last Name" required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="user_email" class="order-input order_form_style" placeholder="Your Email" required>
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="user_phone" class="order-input order_form_style" placeholder="Your Phone Number (Optional)" maxlength="13">                       
+                        <label for="usermessage"></label>
+                        <textarea type="text" id="usermessage" name="user_message" class="order-input order_form_style" rows="20" cols="50" placeholder="Your Message" required></textarea>
                     </div>
                 </div>
             </div>
-            <div class="home_contact">
-                <div id="home_contact_form" class="container_right">
+            <div class="order_submit_form">
+                <div class="order_contact_form container_right">
                     <div id="order_form">
-                       <!--form method="post" action="https://formdump.codeinstitute.net" class="contact-page-form" target="_blank">-->
-                            <label for="fname"></label>
-                            <input type="text" id="fname" name="first_name" class="order-input" placeholder="First Name" required>
-                            <label for="lname"></label>
-                            <input type="text" id="lname" name="last_name" class="order-input" placeholder="Last Name" required>
-                            <label for="email"></label>
-                            <input type="email" id="email" name="user_email" class="order-input" placeholder="Your Email" required>
-                            <label for="phone"></label>
-                            <input type="tel" id="phone" name="user_phone" class="order-input" placeholder="Your Phone Number (Optional)" maxlength="13">
-                            <label for="usermessage"></label>
-                            <textarea type="text" id="usermessage" name="user_message" class="order-input" rows="20" cols="50" placeholder="Your Message" required></textarea>
-                         
+                        <h2>Delivery Details</h2>
+
+                        <p>If you require a delivery, please provide your address (cost is calculated at the point of order review).</p>
+                        <input type="text" id="address_line_1" name="address_line_1" class="order-input order_form_style" placeholder="House Number or Name" maxlength="40">
+                        <input type="text" id="address_line_2" name="address_line_2" class="order-input order_form_style" placeholder="Street Name" maxlength="40">
+                        <input type="text" id="address_line_3" name="address_line_3" class="order-input order_form_style" placeholder="City" maxlength="40">
+                        <input type="text" id="address_line_4" name="address_line_4" class="order-input order_form_style" placeholder="Post Code" maxlength="10">
+                        <p>Please provide date for order to be fulfilled.</p>                        
+                        <input type="date" id="due_date" name="order_due_date" class="order-input order_form_style "  required>
+                        <br>
+                        <input type="submit" class="send-button form-button order-page-form" value="Submit Your Order">
+                    </form>
                     </div>
+
                 </div>
             </div>
 
         </setion>
-            <input type="submit" class="send-button vertical-center-cont-button order-page-form" value="Send Message">
-        </form>
-            <!--<div id="order_form">
-                <form method="post" action="https://formdump.codeinstitute.net" class="contact-page-form" target="_blank">
-                    <label for="fname"></label>
-                    <input type="text" id="fname" name="first_name" class="text-input" placeholder="First Name" required>
-                    <label for="lname"></label>
-                    <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last Name" required>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="user_email" class="text-input" placeholder="Your Email" required>
-                    <label for="phone"></label>
-                    <input type="tel" id="phone" name="user_phone" class="text-input" placeholder="Your Phone Number (Optional)" maxlength="13">
-                    <label for="contact_reason"></label>
-                    <select name="contact_reason" id="contact_reason" class="text-input">
-                        <option name="enquiry_reason" value="enquiry_reason">Enquiry Reason</option>
-                        <option name="general_enquiry" value="general_enquiry">General Enquiry</option>
-                        <option name="special_order" value="special_order">Special Order</option>
-                        <option name="event_booking" value="event_booking">Event Booking</option>
-                        <option name="help_with_my_order" value="help_with_my_order">Help With My Order</option>
-                        <option name="leave_feedback" value="leave_feedback">Leave Feedback</option>
-                    </select>                          
-                    <label for="usermessage"></label>
-                    <textarea type="email" id="usermessage" name="user_message" class="text-input" rows="20" cols="50" placeholder="Your Message" required></textarea>
-                    <input type="submit" class="send-button vertical-center-cont-button" value="Send Message">
-                </form>    
-            </div>-->
+
+
 
             <div id="order_form_info">
                 <p> Form info placeholder!</p>

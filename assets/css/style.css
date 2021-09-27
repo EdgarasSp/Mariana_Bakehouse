@@ -345,7 +345,7 @@ hr {
     text-align: left;
 }
 
-.text-input, .order-input {
+.text-input  {
     background-color: rgba(211, 216, 211, 0.3);
     color: #263640;
     width: 80%;
@@ -362,10 +362,6 @@ hr {
 
 .main-contact-form .vertical-center-cont-button {
     position: relative;
-}
-
-.send-button:hover {
-    border: #263640 solid 1px;
 }
 
 /* Feedback */
@@ -855,15 +851,47 @@ input, textarea {
     letter-spacing: .008rem;
 }
 
+    /* Order_form */
+
 #order_form {
-    margin: 0 27%; 
     height: 100%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.order_form .text-input {
+.order_form_style  {
+    background-color: rgba(211, 216, 211, 0.3);
+    color: #263640;
+    width: 60%;
+    height: 30px;
+    margin: 5px 5px;
+    border-radius: px;
+    border: rgba(211, 216, 211, 0.6) solid 1px;
+}
+
+#order_form .text-input {
     background-color: rgba(211, 216, 211, 0.5);
 }
+
+#order_form p {
+    margin: 20px 20%;
+    font-size: 80%;
+    text-align: left;
+}
+
+#order_form textarea {
+    height: 50%;
+    font-family: inherit;
+}
+
+.form-button {
+    margin: 20px;
+    padding: 5px; 
+    position: relative;
+    width: auto;
+}
+
+
 
     /* gallery media queries */
 
