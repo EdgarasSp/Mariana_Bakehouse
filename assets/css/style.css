@@ -928,19 +928,19 @@ input, textarea {
    /*site wide navbar & logo*/
    
    .logo {
-        height: 150px;
+        height: 200px;
     }
 
     .logo-cropped {
-        height: 150px;
+        height: 200px;
     }
 
     #header-menu li {
-        width: 150px;
+        width: 200px;
     }
 
     .header-menu-list-item a {
-        font-size: 1.4rem;  
+        font-size: 1.8rem;  
     }
  
    /*site wide footer*/
@@ -952,63 +952,70 @@ input, textarea {
     #footer_social p, #footer_subscribe p, #footer_nav_links p {
         text-align: center;
         font-size: 90%;
-
-        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     /* footer social and links*/
 
+    .hide {
+        opacity: 0%;
+    }
+
     .social-networks, .footer_links {
-        text-align: left;
-        margin:  1% 6%;
-        list-style-type: none;
+        text-align: center;
+     }
+
+     .social-networks li, .footer_links li {
+        display: inline-block;
+        padding-bottom: 15px;
     }
 
-    .social-networks i, .footer_links i {
-        font-size: 160%;
-        margin: 1%;
-        color: #263640;
+    .social-networks i {
+        width: 20px;
+        font-size: 4rem;
     }
-    .social-networks li a, .footer_links li a, .subscription_form label {
-        text-decoration: none;
-        color: #263640;
-        font-size: 90%;
-    }
-
-    .footer_links {
-        text-align: right;
-        margin: 1% 6%;
-        text-decoration: underline;
+    .footer_links li {
+        width: 200px;
+        font-size: 3rem;
     }
 
     #copyright {
-        margin-left: 1%;
-        font-size: 70%;
+        font-size: 10px;
     }
 
     /*footer subscription*/
 
-    #subscription_form_container {
-        background-color: rgba(211, 216, 211, 0.5);
-        border:  rgba(211, 216, 211, 0.7) solid 1px;
-        border-radius: 10px;
+    #monthly, #weekly {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 30px;
     }
+
+    #subscription_form_container {
+        display: inline-block;
+    }
+
+    #subscription_form_container {
+        width: 90%;
+        margin: 0 5% 20px 5%;
+    }
+
     .subscription_form label {
-        text-decoration: none;
-        color: #263640;
-        font-size: 90%;
-        margin-left: 7%;
+        font-size: 2.5rem;      
     }
 
     .subscription_form #email {
-        width: 60%;
-        margin-top: 20px;
-        background-color: #fff;
-        border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+        width: 90%;
+        height: 80px;
+        font-size: 2rem;
     }
 
     .subscribe-button {
-        height: 2rem;
+        height: 5rem;
+        font-size: 2rem;
+        width: auto;
+        padding: 20px;
+        margin-left: 40%
     }
 
     /* gallery images*/
