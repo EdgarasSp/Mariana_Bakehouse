@@ -947,7 +947,7 @@ iframe {
     }
 
     .header-menu-list-item a {
-        font-size: 1.8rem;  
+        font-size: 1.9rem;  
     }
  
    /*site wide footer */
@@ -1030,7 +1030,38 @@ iframe {
         margin-left: 40%
     }
 
-    /* order page*/
+    /* order page */
+
+    .our_cakes, .our_brownies, .our_pastries {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 900px;
+    }
+
+    .prod-image .prod-info h1 {
+        font-size: 3.5rem;
+        margin-top: 10%;
+    }
+
+   .prod-image .prod-info p {
+       font-size: 2.5rem;
+   }
+   
+    .prod_order_form tr th {
+        font-size: 2.6rem;
+    }
+
+    .prod_order_form tr td {
+        font-size: 2.5rem;
+        padding: 10px 0;
+    }
+
+    .prod_order_form .order-input {
+        height: 2.5rem;
+        width: auto;
+        font-size: 2.5rem;
+    }
+
+    /* Contact page*/
 
     #main_contact_container_1 {
         height: 1000px;
