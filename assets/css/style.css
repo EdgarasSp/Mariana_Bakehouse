@@ -896,20 +896,35 @@ input, textarea {
 
     /* gallery media queries */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .album_container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 920px) {
     .album_container {
-        grid-template-columns: 1fr 1fr; /* may need to check as not showing in dev*/
+        grid-template-columns: repeat(3, 1fr); 
+}
+
+@media screen and (min-width: 768px) {
+    .album_container {
+        grid-template-columns: 1fr 1fr; 
     }
 }
 
-@media screen and (max-width: 520px) { /*change to 480px later*/
+@media screen and (min-width: 548px) {
     .album_container {
-        grid-template-columns: 1fr; /* may need to check as not showing in dev*/
+        grid-template-columns: 1fr; 
+        grid-auto-rows: 600px;
     }
+
+    .album_item .image_description h1 {
+        font-size: 3.5rem;
+
+    }
+    .album_item .image_description p {
+       font-size: 2.5rem;
+   }
+   
 }
