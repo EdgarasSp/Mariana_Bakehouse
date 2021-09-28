@@ -746,7 +746,7 @@ iframe {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 400px;
-    grid-gap: 10px;
+    
 }
 
 .main-prod-container {
@@ -925,11 +925,11 @@ iframe {
      /*Spacer h1 h2*/
        
    .center-align-h2 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
    }
 
    .center-align-h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
    }                                                              
 
    /* logo and nav */   
@@ -1030,11 +1030,46 @@ iframe {
         margin-left: 40%
     }
 
+    /* home page */
+
+    #banner-image {
+        margin-top: 60px;
+        height: 1400px;
+        max-height: 100%;
+    }
+
+    .shop-button {
+        height: 5rem;
+        font-size: 2rem;
+        width: auto;
+        padding: 20px;
+    }
+
+    .featured-prod-container {
+        display:grid;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        border-radius: 0%;
+        margin: 30px 0 0 0;
+    }
+    
+    .featured-prod-container .vertical-center-prod-button {
+        top: 85%;
+    }
+
+    #featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4, #bespke-background-image, #home_contact_media {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #E7F0EF;
+    }
     /* order page */
 
     .our_cakes, .our_brownies, .our_pastries {
         grid-template-columns: 1fr;
         grid-auto-rows: 900px;
+        grid-gap: 30px;
     }
 
     .prod-image .prod-info h1 {
