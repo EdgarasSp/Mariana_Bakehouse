@@ -722,6 +722,13 @@ input, textarea {
     text-transform: uppercase;
 }
 
+/* map */
+
+iframe {
+    height: 400px;
+    width:100%;
+}
+
 /*Order Page products*/
 
 #products_container {
@@ -915,8 +922,8 @@ input, textarea {
 
 @media screen and (min-width: 548px) {
     
-    /*site wide h1 h2*/ 
-    
+     /*Spacer h1 h2*/
+       
    .center-align-h2 {
         font-size: 1.7rem;
    }
@@ -925,8 +932,8 @@ input, textarea {
         font-size: 2.2rem;
    }                                                              
 
-   /*site wide navbar & logo*/
-   
+   /* logo and nav*/   
+
    .logo {
         height: 200px;
     }
@@ -953,6 +960,7 @@ input, textarea {
         text-align: center;
         font-size: 90%;
         margin-bottom: 50px;
+        padding-top: 20px;
     }
 
     /* footer social and links*/
@@ -981,6 +989,10 @@ input, textarea {
 
     #copyright {
         font-size: 10px;
+    }
+    
+    #copyright i {
+        margin-right: 10px;
     }
 
     /*footer subscription*/
@@ -1017,6 +1029,63 @@ input, textarea {
         padding: 20px;
         margin-left: 40%
     }
+
+    /* order page*/
+
+    #main_contact_container_1 {
+        height: 1000px;
+    }
+
+    #form_containers {
+        margin: 0 5%;
+        position: relative;
+    }
+
+    .contact-page-form {
+        height: 100%; 
+    }
+
+    .contact-page-form .text-input {
+        height: 5rem;
+    }
+    
+    #form_containers .contact-page-form textarea {
+        height: 40%;
+    }
+  
+    .contact-page-form .vertical-center-cont-button {
+        margin-top: 10%;
+        position: absolute;
+    }
+
+    .contact-page-form .send-button {
+        height: 5rem;
+        font-size: 2rem;
+        width: auto;
+        padding: 20px;
+    }
+
+    .contact-page-form input, .contact-page-form select, .contact-page-form textarea {
+        font-size: 2rem;
+    }
+
+    .social_comp_item {
+        height: 350px;
+     }
+    
+     .social_comp_item p {
+         font-size: 1.8rem;
+     }
+    
+     .social_comp_item h1 {
+        font-size: 2rem;
+    }
+
+    iframe {
+        height: 800px;
+        width:100%;
+    }
+    
 
     /* gallery images*/
 
