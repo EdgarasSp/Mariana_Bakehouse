@@ -1046,22 +1046,57 @@ iframe {
        font-size: 2.5rem;
    }
    
-    .prod_order_form tr th {
-        font-size: 2.6rem;
-    }
+   .prod_order_form tr th {
+       font-size: 2.6rem;
+   }
 
-    .prod_order_form tr td {
+   .prod_order_form tr td {
+       font-size: 2.5rem;
+       padding: 10px 0;
+   }
+
+   .prod_order_form .order-input {
+       height: 2.5rem;
+       width: auto;
+       font-size: 2.5rem;
+   }
+
+   .order_submit_form .container_left, .order_submit_form .container_right {
+       float: none;
+       height:1000px;
+       width: 100%;   
+   }
+
+    .order_contact_form #order_form h2 {
         font-size: 2.5rem;
-        padding: 10px 0;
     }
 
-    .prod_order_form .order-input {
-        height: 2.5rem;
+    .order_contact_form #order_form p {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .order_form_style  {
+        width: 90%;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    #order_form .form-button {
+        margin-top: 10%;
+        position: absolute;
+    }
+
+    #order_form .form-button {
+        height: 5rem;
+        font-size: 2rem;
         width: auto;
-        font-size: 2.5rem;
+        padding: 20px;
+        margin: 5% -20%;
     }
 
-    /* Contact page*/
+   
+    /* Contact page */
 
     #main_contact_container_1 {
         height: 1000px;
