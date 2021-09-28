@@ -915,24 +915,101 @@ input, textarea {
 
 @media screen and (min-width: 548px) {
     
-    /*site title_spacers*/ 
+    /*site wide h1 h2*/ 
     
-    .title_spacer {
-        margin-bottom: 50px;
-        }
-
-    .center-align-h2 {
+   .center-align-h2 {
         font-size: 1.7rem;
    }
 
    .center-align-h1 {
-        /*margin: 0px;*/
         font-size: 2.2rem;
-        /*letter-spacing: 0.3rem;
-        text-transform: uppercase;
-        text-align: center;
-        opacity: 90%;*/
    }                                                              
+
+   /*site wide navbar & logo*/
+   
+   .logo {
+        height: 150px;
+    }
+
+    .logo-cropped {
+        height: 150px;
+    }
+
+    #header-menu li {
+        width: 150px;
+    }
+
+    .header-menu-list-item a {
+        font-size: 1.4rem;  
+    }
+ 
+   /*site wide footer*/
+
+    .footer_container {
+        display: inline;
+    }
+
+    #footer_social p, #footer_subscribe p, #footer_nav_links p {
+        text-align: center;
+        font-size: 90%;
+
+        margin-top: 20px;
+    }
+
+    /* footer social and links*/
+
+    .social-networks, .footer_links {
+        text-align: left;
+        margin:  1% 6%;
+        list-style-type: none;
+    }
+
+    .social-networks i, .footer_links i {
+        font-size: 160%;
+        margin: 1%;
+        color: #263640;
+    }
+    .social-networks li a, .footer_links li a, .subscription_form label {
+        text-decoration: none;
+        color: #263640;
+        font-size: 90%;
+    }
+
+    .footer_links {
+        text-align: right;
+        margin: 1% 6%;
+        text-decoration: underline;
+    }
+
+    #copyright {
+        margin-left: 1%;
+        font-size: 70%;
+    }
+
+    /*footer subscription*/
+
+    #subscription_form_container {
+        background-color: rgba(211, 216, 211, 0.5);
+        border:  rgba(211, 216, 211, 0.7) solid 1px;
+        border-radius: 10px;
+    }
+    .subscription_form label {
+        text-decoration: none;
+        color: #263640;
+        font-size: 90%;
+        margin-left: 7%;
+    }
+
+    .subscription_form #email {
+        width: 60%;
+        margin-top: 20px;
+        background-color: #fff;
+        border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+    }
+
+    .subscribe-button {
+        height: 2rem;
+    }
 
     /* gallery images*/
 
