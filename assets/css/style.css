@@ -911,7 +911,7 @@ iframe {
 */
 
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     .album_container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -919,9 +919,16 @@ iframe {
     .title_spacer {
         background: red;
     }
-}
 
-@media screen and (max-width: 920px) {
+    #banner-image {
+        margin-top: 20px;
+        height: 600px;
+    }
+}*/
+
+
+
+@media screen and (max-width: 1024px) {
     
     .album_container {
         grid-template-columns: repeat(3, 1fr); 
@@ -930,22 +937,10 @@ iframe {
     .title_spacer {
         background: blue;
     }
-}
-
-@media screen and (max-width: 768px) {
-    
-    .album_container {
-        grid-template-columns: 1fr 1fr; 
-    }
-
-    .title_spacer {
-        background: palegreen;
-    }
 
     /* home page */
 
-    #banner-image {
-        margin-top: 20px;
+    #banner-image {  
         height: 600px;
     }
 
@@ -1041,7 +1036,227 @@ iframe {
     }
 
     .main-contact-form .text-input {
-        height: 1.2rem;
+        height: 2rem;
+        width: 90%;
+        margin: 1%;
+    }
+    
+    #home_form_container .main-contact-form textarea {
+        height: 100px;
+        width: 90%;
+    }
+  
+    .main-contact-form .vertical-center-cont-button {
+        position: relative;
+        left: 47%
+    }
+
+    .main-contact-form .send-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 8rem;
+        padding: 7px;
+        border:rgba(38, 54, 64, 0.8) solid 1px
+    }
+   
+    #feedback_snippets {
+        text-align: center;
+    }
+    #home_contact_media {
+        margin-top: 20px;
+        height: 420px; 
+        width: 100%;
+    }
+
+    .fedback_container {
+        margin: 1%;
+        width: 20%;
+        height: 200px;
+        position:relative;
+    }
+    
+   .feedback_title {
+        height: 20%;
+    }
+
+    .feedback_title p, .feedback_message p {
+        font-size: 0.8rem;
+    }
+ 
+    .feedback_message {
+        height: 60%;
+    }
+
+    #feedback_stars {
+        height: 20%;
+        font-size: 0.8rem;
+    }
+ 
+     /*site wide footer */
+
+    .footer_container {
+        display: inline;
+    }
+
+    #footer_social p, #footer_subscribe p, #footer_nav_links p {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    /* footer social and links*/
+    .hide {
+        opacity: 0%;
+    }
+
+    .social-networks, .footer_links {
+        text-align: center;
+    }
+
+    .social-networks li{
+        width: 100px;
+    }
+
+    .social-networks li, .footer_links li {
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .social-networks i {
+        width: auto;
+        font-size: 3rem;
+    }
+    .footer_links li {
+        width: 20%;
+        font-size: 1.2rem;
+    }
+
+    #copyright {
+        font-size: 10px;
+    }
+    
+    #copyright i {
+        margin-right: 10px;
+    }
+
+    .subscribe-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 100px;
+        padding: 8px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .album_container {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .title_spacer {
+        background: palegreen;
+    }
+
+    /* home page */
+
+    #banner-image {
+        height: 600px;
+    }
+
+    #featured-prod {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+        grid-gap: 10px;
+    }
+    
+    .shop-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 6rem;
+        padding: 8px;
+        border:rgba(38, 54, 64, 0.8) solid 1px;
+    }
+    
+    .featured-prod-container {
+       width: 100%;
+       height: 300px;
+       border-radius: 0%;
+    }
+
+    #featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4, #bespke-background-image, #home_contact_media {
+        background-position: center;
+    }
+
+    .featured-prod-container .vertical-center-prod-button {
+        top: 85%;
+    }      
+
+    #bespoke-prod-info-container {
+        height: 600px;
+    }
+
+    #bespoke-prod-info-text {
+        width: 400px;
+        height: 250px;
+        opacity: 95%;
+        top: 30%;
+        border-radius: 8px;
+    }
+
+    #bespoke-prod-info-text h1 {
+        font-size: 1.2rem;
+    }
+
+    #bespoke-prod-info-text p {
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .contact-button {
+        height: auto;
+        width: 8rem;
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+
+    #home_about_contact_container {
+        height: 1620px; 
+    }
+
+    .home_about .container_left, .home_about .container_right, .home_contact .container_left, .home_contact .container_right {
+        float: none;
+        height: 400px;
+        width: 100%;   
+     }
+
+    #home_contact_form .center-align-h, #home_about_info .center-align-h1 {
+        margin: 5px;
+        font-size: 1.2rem;
+    }
+
+    #home_about_info p, #home_contact_form p  {
+        font-size: 0.8rem;
+        font-weight: normal;
+        letter-spacing: 0.1rem;
+    }
+
+    .home_video {
+        width: 100%;
+        height: 400px;
+    }
+   
+    #home_contact_form, .main-contact-form {
+        height: 400px;
+    }
+
+    .main-contact-form {
+        height: 80%;
+    }
+
+    .main-contact-form .text-input {
+        height: 2rem;
         width: 80%;
         margin: 1%;
     }
@@ -1092,17 +1307,66 @@ iframe {
         height: 60%;
     }
 
-
- 
     #feedback_stars {
         height: 20%;
         font-size: 0.8rem;
     }
  
+     /*site wide footer */
 
+    .footer_container {
+        display: inline;
+    }
 
+    #footer_social p, #footer_subscribe p, #footer_nav_links p {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
 
+    /* footer social and links*/
+    .hide {
+        opacity: 0%;
+    }
+
+    .social-networks, .footer_links {
+        text-align: center;
+    }
+
+    .social-networks li{
+        width: 100px;
+    }
+
+    .social-networks li, .footer_links li {
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .social-networks i {
+        width: auto;
+        font-size: 3rem;
+    }
+    .footer_links li {
+        width: 20%;
+        font-size: 1.2rem;
+    }
+
+    #copyright {
+        font-size: 10px;
+    }
     
+    #copyright i {
+        margin-right: 10px;
+    }
+
+    .subscribe-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 100px;
+        padding: 8px;
+        
+    }
+
 }
 
 @media screen and (max-width: 548px) {
@@ -1219,7 +1483,6 @@ iframe {
     /* home page */
 
     #banner-image {
-        margin-top: 60px;
         height: 1400px;
         max-height: 100%;
     }
