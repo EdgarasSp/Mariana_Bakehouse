@@ -1569,8 +1569,8 @@ iframe {
         height: 400px;
     }
    
-    #home_form_container form {
-        margin-left: -30%;
+    #home_form_container {
+        margin-left: 15%;
     }
 
     #home_contact_form{
@@ -1637,192 +1637,38 @@ iframe {
         font-size: 0.8rem;
     }
 
-   /* 
-    #banner-image {
-        height: 600px;
-        max-height: 100%;
-    }
-
-    .shop-button {
-        height: 5rem;
-        font-size: 2rem;
-        width: 15rem;
-        padding: 20px;
-    }
-
-    .featured-prod-container {
-        display:grid;
-        width: 100%;
-        height: 700px;
-        position: relative;
-        border-radius: 0%;
-        margin: 30px 0 0 0;
-    }
-    
-    .featured-prod-container .vertical-center-prod-button {
-        top: 85%;
-    }
-
-    #featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4, #bespke-background-image, #home_contact_media {
-        background-position: center;
-    }
-    
-    #bespke-background-image {
-        height: 1300px; 
-        background-position: bottom;
-    }
-
-    #bespoke-prod-info-container {
-        height: 1200px;
-    }
-
-    #bespoke-prod-info-text {
-        width: 600px;
-        height: 450px;
-        opacity: 95%;
-        top: 30%;
-    }
-
-    #bespoke-prod-info-text h1 {
-    font-size: 2rem;
-    }
-
-    #bespoke-prod-info-text p {
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        font-weight: normal;
-    }
-
-    .contact-button {
-        height: 5rem;
-        width: 15rem;
-        font-size: 2rem;
-        padding: 20px;
-    }
-
-    #home_about_contact_container {
-        height: 2400px; 
-    }
-
-    .home_about .container_left, .home_about .container_right, .home_contact .container_left, .home_contact .container_right {
-        float: none;
-        height:500px;
-        width: 100%;   
-     }
-
-    #home_about_info .center-align-h1 {
-        text-align: center;
-        margin: 40px 0px 15px 0px;
-    }
-
-    #home_contact_form .center-align-h1 {
-        font-size: 2rem;
-    }
-
-    #home_about_info p, #home_contact_form p  {
-        font-size: 1.65rem;
-        font-weight: normal;
-        letter-spacing: 0.1rem;
-    }
-
-    .home_video {
-        width: 100%;
-        height: 500px;
-    }
-   
-    #home_contact_form {
-        height: 800px;
-    }
-
-  
-    .main-contact-form {
-        height: 100%;
-    }
-
-    .main-contact-form .text-input {
-        height: 5rem;
-        width: 90%;
-    }
-    
-    #home_form_container .main-contact-form textarea {
-        height: 300px;
-        width: 90%;
-    }
-  
-    .main-contact-form .vertical-center-cont-button {
-        position: relative;
-    }
-
-    .main-contact-form .send-button {
-        height: 5rem;
-        font-size: 2rem;
-        width: 20rem;
-        padding: 20px;
-    }
-
-    .main-contact-form input, .main-contact-form select, .main-contact-form textarea {
-        font-size: 2rem;
-    }
-    
-  
-    .fedback_container {
-        margin: 20px 4.5%;
-        width: 40%;
-        height: 500px;
-        position:relative;
-    }
-    
-   .feedback_title {
-        height: 20%;
-    }
-
-    .feedback_title p {
-        font-size: 2.2rem;
-    }
- 
-    .feedback_message {
-        height: 60%;
-    }
-
-    .feedback_message p {
-        font-size: 2rem;
-    }
- 
-    #feedback_stars {
-        height: 20%;
-        font-size: 2rem;
-    }
- */
     /* order page */
+
 
     .our_cakes, .our_brownies, .our_pastries {
         grid-template-columns: 1fr;
-        grid-auto-rows: 900px;
+        grid-auto-rows: 400px;
         grid-gap: 30px;
+        
     }
 
     .prod-image .prod-info h1 {
-        font-size: 3.5rem;
+        font-size: 1.3rem;
         margin-top: 10%;
     }
 
    .prod-image .prod-info p {
-       font-size: 2.5rem;
+       font-size: 0.9rem;
    }
    
    .prod_order_form tr th {
-       font-size: 2.6rem;
+       font-size: 0.9rem;
    }
 
    .prod_order_form tr td {
-       font-size: 2.5rem;
-       padding: 10px 0;
+       font-size: 0.9rem;
+       padding: 5px 0;
    }
 
    .prod_order_form .order-input {
-       height: 2.5rem;
+       height: 0.9rem;
        width: auto;
-       font-size: 2.5rem;
+       font-size: 1rem;
    }
 
    .order_submit_form .container_left, .order_submit_form .container_right {
@@ -1832,18 +1678,26 @@ iframe {
    }
 
     .order_contact_form #order_form h2 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .order_contact_form #order_form p {
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
+
+    .order_contact_form #order_form textarea {
+        height: 20%
+    }
     
+   .order_submit_form {
+        height: 500px;
+    }
+
     .order_form_style  {
         width: 90%;
-        height: 5rem;
-        font-size: 2rem;
+        height: 2rem;
+        font-size: 1rem;
     }
 
     #order_form .form-button {
@@ -1852,10 +1706,10 @@ iframe {
     }
 
     #order_form .form-button {
-        height: 5rem;
-        font-size: 2rem;
+        height: auto;
+        font-size: 0.8rem;
         width: auto;
-        padding: 20px;
+        padding: 10px;
         margin: 5% -20%;
     }
 
