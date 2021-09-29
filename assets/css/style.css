@@ -946,7 +946,7 @@ iframe {
 
     #banner-image {
         margin-top: 20px;
-        height: 800px;
+        height: 600px;
     }
 
     #featured-prod {
@@ -979,7 +979,7 @@ iframe {
     }      
 
     #bespoke-prod-info-container {
-        height: 800px;
+        height: 600px;
     }
 
     #bespoke-prod-info-text {
@@ -1043,7 +1043,7 @@ iframe {
     .main-contact-form .text-input {
         height: 1.2rem;
         width: 80%;
-        margin: 0;
+        margin: 1%;
     }
     
     #home_form_container .main-contact-form textarea {
@@ -1064,11 +1064,45 @@ iframe {
         border:rgba(38, 54, 64, 0.8) solid 1px
     }
    
+    #feedback_snippets {
+        text-align: center;
+    }
     #home_contact_media {
         margin-top: 20px;
         height: 420px; 
         width: 100%;
     }
+
+    .fedback_container {
+        margin: 1%;
+        width: 20%;
+        height: 200px;
+        position:relative;
+    }
+    
+   .feedback_title {
+        height: 20%;
+    }
+
+    .feedback_title p, .feedback_message p {
+        font-size: 0.8rem;
+    }
+ 
+    .feedback_message {
+        height: 60%;
+    }
+
+
+ 
+    #feedback_stars {
+        height: 20%;
+        font-size: 0.8rem;
+    }
+ 
+
+
+
+    
 }
 
 @media screen and (max-width: 548px) {
