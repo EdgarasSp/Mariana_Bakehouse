@@ -1325,6 +1325,7 @@ iframe {
     }
 
     /* footer social and links*/
+
     .hide {
         opacity: 0%;
     }
@@ -1364,8 +1365,174 @@ iframe {
         font-size: 0.7rem;
         width: 100px;
         padding: 8px;
+    }
+
+    /* order page */
+
+    .our_cakes, .our_brownies, .our_pastries {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 400px;
+        grid-gap: 10px;
+           
+    }
+
+    .prod-image .prod-info h1 {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+
+   .prod-image .prod-info p {
+       font-size: 0.8rem;
+   }
+   
+   .prod_order_form tr th {
+       font-size: 0.9rem;
+   }
+
+   .prod_order_form tr td {
+       font-size: 0.9rem;
+       padding: 5px 0;
+   }
+
+   .prod_order_form .order-input {
+       height: 1rem;
+       width: auto;
+       font-size: 1rem;
+   }
+
+   .order_submit_form .container_left, .order_submit_form .container_right {
+       float: none;
+       height:1000px;
+       width: 100%;   
+   }
+
+    .order_contact_form #order_form h2 {
+        font-size: 1.5rem;
+    }
+
+    .order_contact_form #order_form p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .order_contact_form #order_form textarea {
+        height: 20%
+    }
+    
+   .order_submit_form {
+        height: 500px;
+    }
+
+    .order_form_style  {
+        width: 90%;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    #order_form .form-button {
+        margin-top: 10%;
+        position: absolute;
+    }
+
+    #order_form .form-button {
+        height: auto;
+        font-size: 0.8rem;
+        width: auto;
+        padding: 10px;
+        margin: 5% -10%;
+    }
+
+        
+    /* Contact page */
+
+    #main_contact_container_1 {
+        height: 500px;
+    }
+
+    #form_containers {
+        margin: 0 5%;
+        position: relative;
+    }
+
+    .contact-page-form {
+        height: 100%; 
+    }
+
+    .contact-page-form .text-input {
+        height: 2rem;
+        margin: 5px 0;
+    }
+    
+    #form_containers .contact-page-form textarea {
+        height: 40%;
+    }
+  
+    .contact-page-form .vertical-center-cont-button {
+        margin-top: 10%;
+        position: relative;
+        top: 0%;
+        
+       
+    }
+
+    .contact-page-form .send-button {
+        height: auto;
+        font-size: 0.8rem;
+        width: auto;
+        padding: 10px;
         
     }
+
+    .contact-page-form input, .contact-page-form select, .contact-page-form textarea {
+        font-size: 1rem;
+    }
+
+    .social_comp_item {
+        height: 200px;
+     }
+    
+    .social_comp_item p {
+         font-size: 0.9rem;
+    }
+    
+     .social_comp_item h1 {
+        font-size: 1.1rem;
+    }
+
+    iframe {
+        height: 400px;
+        width:100%;
+    }
+
+    .social_con_networks li {
+        border-radius: 8px;
+        margin: 5px;
+        padding: 5%;
+    }
+
+    .social_list_item a {
+        font-size: 50px;  
+    }
+
+    /* gallery images*/
+
+    .album_container {
+        grid-template-columns: 1fr; 
+        grid-auto-rows: 300px;
+   }
+
+   .album_item .image_description h1 {
+        font-size: 1.3rem;
+        margin-top: 18%;
+   }
+
+   .album_item .image_description p {
+       font-size: 0.9rem;
+   }
+   
+   .album_item .resp_text h1 {
+        margin-top: 40%;
+   }
 
 }
 
@@ -1641,6 +1808,7 @@ iframe {
 
 
     .our_cakes, .our_brownies, .our_pastries {
+        
         grid-template-columns: 1fr;
         grid-auto-rows: 400px;
         grid-gap: 30px;
