@@ -946,7 +946,7 @@ iframe {
 
     #banner-image {
         margin-top: 20px;
-        height: 600px;
+        height: 800px;
     }
 
     #featured-prod {
@@ -961,17 +961,114 @@ iframe {
         font-size: 0.7rem;
         width: 6rem;
         padding: 8px;
+        border:rgba(38, 54, 64, 0.8) solid 1px;
     }
     
     .featured-prod-container {
        width: 100%;
        height: 300px;
+       border-radius: 0%;
+    }
+
+    #featured-prod-1, #featured-prod-2, #featured-prod-3, #featured-prod-4, #bespke-background-image, #home_contact_media {
+        background-position: center;
     }
 
     .featured-prod-container .vertical-center-prod-button {
         top: 85%;
-    }    
+    }      
+
+    #bespoke-prod-info-container {
+        height: 800px;
+    }
+
+    #bespoke-prod-info-text {
+        width: 400px;
+        height: 250px;
+        opacity: 95%;
+        top: 30%;
+        border-radius: 8px;
+    }
+
+    #bespoke-prod-info-text h1 {
+        font-size: 1.2rem;
+    }
+
+    #bespoke-prod-info-text p {
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .contact-button {
+        height: auto;
+        width: 8rem;
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+
+    #home_about_contact_container {
+        height: 1620px; 
+    }
+
+    .home_about .container_left, .home_about .container_right, .home_contact .container_left, .home_contact .container_right {
+        float: none;
+        height: 400px;
+        width: 100%;   
+     }
+
+    #home_contact_form .center-align-h, #home_about_info .center-align-h1 {
+        margin: 5px;
+        font-size: 1.2rem;
+    }
+
+    #home_about_info p, #home_contact_form p  {
+        font-size: 0.8rem;
+        font-weight: normal;
+        letter-spacing: 0.1rem;
+    }
+
+    .home_video {
+        width: 100%;
+        height: 400px;
+    }
+   
+    #home_contact_form, .main-contact-form {
+        height: 400px;
+    }
+
+    .main-contact-form {
+        height: 80%;
+    }
+
+    .main-contact-form .text-input {
+        height: 1.2rem;
+        width: 80%;
+        margin: 0;
+    }
     
+    #home_form_container .main-contact-form textarea {
+        height: 100px;
+        width: 80%;
+    }
+  
+    .main-contact-form .vertical-center-cont-button {
+        position: relative;
+        left: 40%
+    }
+
+    .main-contact-form .send-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 8rem;
+        padding: 7px;
+        border:rgba(38, 54, 64, 0.8) solid 1px
+    }
+   
+    #home_contact_media {
+        margin-top: 20px;
+        height: 420px; 
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 548px) {
@@ -1169,7 +1266,7 @@ iframe {
         font-size: 2rem;
     }
 
-    #home_about_info p  {
+    #home_about_info p, #home_contact_form p  {
         font-size: 1.65rem;
         font-weight: normal;
         letter-spacing: 0.1rem;
@@ -1184,12 +1281,7 @@ iframe {
         height: 800px;
     }
 
-    #home_contact_form p  {
-        font-size: 1.7rem;
-        font-weight: normal;
-        letter-spacing: 0.1rem;
-    }
-
+  
     .main-contact-form {
         height: 100%;
     }
