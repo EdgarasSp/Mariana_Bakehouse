@@ -946,13 +946,6 @@ iframe {
 @media screen and (max-width: 548px) {
     
     .title_spacer {
-        background: yellow;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    
-    .title_spacer {
         background: purple;
     }
 

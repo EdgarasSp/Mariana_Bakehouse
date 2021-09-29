@@ -350,6 +350,11 @@ issue with @media, property did not apply 768px and 420px did not apply in dev t
 
 > submit form input only if value entered otherwise ignore, no hml solution found
 
+
+BIG BUg Chrome DEV tools, responsive previe does not apply page breaks and outside that option it does.
+
+and print screens
+
 ## **4.2. Integrity**
 
 Placeholder Text
