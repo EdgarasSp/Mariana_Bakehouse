@@ -902,27 +902,60 @@ iframe {
 
     /* gallery media queries */
 
-@media screen and (min-width: 1024px) {
+/*
+360
+548
+768
+920
+1024
+*/
+
+
+@media screen and (max-width: 1024px) {
     .album_container {
         grid-template-columns: repeat(3, 1fr);
     }
-}
 
-@media screen and (min-width: 920px) {
-    .album_container {
-        grid-template-columns: repeat(3, 1fr); 
-}
-
-@media screen and (min-width: 768px) {
-    .album_container {
-        grid-template-columns: 1fr 1fr; 
+    .title_spacer {
+        background: red;
     }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 920px) {
     
-     /*Spacer h1 h2*/
-       
+    .album_container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .title_spacer {
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .album_container {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .title_spacer {
+        background: palegreen;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    
+    .title_spacer {
+        background: yellow;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .title_spacer {
+        background: purple;
+    }
+
     .center-align-h2 {
         font-size: 1.5rem;
     }
@@ -931,9 +964,9 @@ iframe {
         font-size: 2rem;
     }                                                        
 
-   /* logo and nav */   
+    /* logo and nav */   
 
-   .logo {
+    .logo {
         height: 200px;
     }
 
@@ -969,9 +1002,9 @@ iframe {
 
     .social-networks, .footer_links {
         text-align: center;
-     }
+    }
 
-     .social-networks li, .footer_links li {
+    .social-networks li, .footer_links li {
         display: inline-block;
         padding-bottom: 15px;
     }
@@ -1148,7 +1181,6 @@ iframe {
     }
   
     .main-contact-form .vertical-center-cont-button {
-        
         position: relative;
     }
 
@@ -1302,9 +1334,9 @@ iframe {
         height: 350px;
      }
     
-     .social_comp_item p {
+    .social_comp_item p {
          font-size: 1.8rem;
-     }
+    }
     
      .social_comp_item h1 {
         font-size: 2rem;
