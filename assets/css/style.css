@@ -1518,7 +1518,7 @@ iframe {
 
     .album_container {
         grid-template-columns: 1fr; 
-        grid-auto-rows: 300px;
+        grid-auto-rows: 400px;
    }
 
    .album_item .image_description h1 {
@@ -1561,28 +1561,24 @@ iframe {
     }
 
     #header-menu {
-        height: 100px;
+        height: 50px;
     }
 
     #header-menu li {
-        display: inline;
+        display: inline-block;
+        text-align: center;
+        width: 70px;
+        margin: 1px;
     }
-
-    .header-menu-list-item a {
-        font-size: 1rem;  
-        margin: 0 20%;
-        text-align: justify;
-    }
+  
 
     #header-menu a {
-        font-size: 1rem; 
+        font-size: 0.7rem; 
         line-height: 25px;
-        text-align: justify;
+       
     }   
 
-    .active_tab {
-        border-bottom: 0px solid #263640;
-    }
+
 
  
 /*site wide footer */
