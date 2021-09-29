@@ -1713,11 +1713,11 @@ iframe {
         margin: 5% -20%;
     }
 
-    
+        
     /* Contact page */
 
     #main_contact_container_1 {
-        height: 1000px;
+        height: 500px;
     }
 
     #form_containers {
@@ -1730,7 +1730,8 @@ iframe {
     }
 
     .contact-page-form .text-input {
-        height: 5rem;
+        height: 2rem;
+        margin: 5px 0;
     }
     
     #form_containers .contact-page-form textarea {
@@ -1739,37 +1740,47 @@ iframe {
   
     .contact-page-form .vertical-center-cont-button {
         margin-top: 10%;
-        position: absolute;
+        position: relative;
+        top: 0%;
     }
 
     .contact-page-form .send-button {
-        height: 5rem;
-        font-size: 2rem;
+        height: auto;
+        font-size: 0.8rem;
         width: auto;
-        padding: 20px;
+        padding: 10px;
     }
 
     .contact-page-form input, .contact-page-form select, .contact-page-form textarea {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .social_comp_item {
-        height: 350px;
+        height: 200px;
      }
     
     .social_comp_item p {
-         font-size: 1.8rem;
+         font-size: 0.9rem;
     }
     
      .social_comp_item h1 {
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
 
     iframe {
-        height: 800px;
+        height: 400px;
         width:100%;
     }
-    
+
+    .social_con_networks li {
+        border-radius: 8px;
+        margin: 5px;
+        padding: 5%;
+    }
+
+    .social_list_item a {
+        font-size: 50px;  
+    }
 
     /* gallery images*/
 
