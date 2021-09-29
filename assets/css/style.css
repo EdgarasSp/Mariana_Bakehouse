@@ -923,13 +923,13 @@ iframe {
     
      /*Spacer h1 h2*/
        
-   .center-align-h2 {
-        font-size: 1.6rem;
-   }
+    .center-align-h2 {
+        font-size: 1.5rem;
+    }
 
-   .center-align-h1 {
-        font-size: 2.1rem;
-   }                                                              
+    .center-align-h1 {
+        font-size: 2rem;
+    }                                                        
 
    /* logo and nav */   
 
@@ -957,7 +957,6 @@ iframe {
 
     #footer_social p, #footer_subscribe p, #footer_nav_links p {
         text-align: center;
-        font-size: 90%;
         margin-bottom: 50px;
         padding-top: 20px;
     }
@@ -1082,8 +1081,9 @@ iframe {
     }
 
     #bespoke-prod-info-text p {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         letter-spacing: 0.1rem;
+        font-weight: normal;
     }
 
     .contact-button {
@@ -1113,7 +1113,8 @@ iframe {
     }
 
     #home_about_info p  {
-        font-size: 1.5rem;
+        font-size: 1.65rem;
+        font-weight: normal;
         letter-spacing: 0.1rem;
     }
 
@@ -1128,6 +1129,7 @@ iframe {
 
     #home_contact_form p  {
         font-size: 1.7rem;
+        font-weight: normal;
         letter-spacing: 0.1rem;
     }
 
