@@ -84,7 +84,7 @@ font-weight: 800;
 #banner-image {
     height: 700px;
     max-width: 100%;
-    background-image: url("../images/banner/pexels-rachel-claire-5490820_modified.jpg");
+    background-image: url("../images/banner/MB_01-pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -183,11 +183,11 @@ hr {
 }
 
 #featured-prod-1 {
-    background-image: url("../images/products/caramel_coconut_cake.jpg");
+    background-image: url("../images/products/CA_01_caramel and coconut cake.jpg");
 }
 
 #featured-prod-2 {
-    background-image: url("../images/products/honey_yougurt_cake.jpg");
+    background-image: url("../images/products/CA_02_honey and yougurt cake.jpg");
 }
 
 #featured-prod-3 {
@@ -195,7 +195,7 @@ hr {
 }
 
 #featured-prod-4 {
-    background-image: url("../images/products/chocolate_brownie.jpg");
+    background-image: url("../images/products/LB_01_chocolate_brownie.jpg");
 }
 
 
@@ -251,7 +251,7 @@ hr {
 }
 
 #bespke-background-image {
-    background-image: url("../images/products/lemon_cake.jpg");
+    background-image: url("../images/products/SO_01-lemon_cake.jpg");
     height: 700px; 
     max-width: 100%;  
 }
