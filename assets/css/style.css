@@ -460,7 +460,7 @@ textarea {
     resize: none;
 }
 
-#feedback_stars {
+.feedback_stars {
     height: 20%;
     width: 100%;
     text-align: center;
@@ -557,7 +557,7 @@ textarea {
     margin: 5px 20px;
 }
 
-.subscription_form #email {
+.subscription_form #email_sub {
     width: 80%;
     margin-top: 5px;
     background-color: #fff;
@@ -917,7 +917,7 @@ iframe {
 
     /* Order_form */
 
-#order_form {
+.order_form {
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -933,17 +933,17 @@ iframe {
     border: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
-#order_form .text-input {
+.order_form .text-input {
     background-color: rgba(211, 216, 211, 0.5);
 }
 
-#order_form p {
+.order_form p {
     margin: 20px 20%;
     font-size: 80%;
     text-align: left;
 }
 
-#order_form textarea {
+.order_form textarea {
     height: 50%;
     font-family: inherit;
 }
@@ -955,7 +955,7 @@ iframe {
     width: auto;
 }
 
-#order_form_info {
+.order_form_info {
     width: 80%;
     margin: 0 10%;
     padding: 2% 0%;
@@ -1123,7 +1123,7 @@ iframe {
         height: 60%;
     }
 
-    #feedback_stars {
+    .feedback_stars {
         height: 20%;
         font-size: 0.8rem;
     }
@@ -1179,7 +1179,7 @@ iframe {
         font-size: 0.7rem;
     }
 
-    .subscription_form #email {
+    .subscription_form #email_sub {
         margin-top: 5px;
         width: 80%;
     }
@@ -1237,16 +1237,16 @@ iframe {
        width: 100%;   
    }
 
-    .order_contact_form #order_form h2 {
+    .order_contact_form .order_form h2 {
         font-size: 1.5rem;
     }
 
-    .order_contact_form #order_form p {
+    .order_contact_form .order_form p {
         font-size: 1rem;
         text-align: center;
     }
 
-    .order_contact_form #order_form textarea {
+    .order_contact_form .order_form textarea {
         height: 20%
     }
     
@@ -1260,12 +1260,12 @@ iframe {
         font-size: 1rem;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         margin-top: 10%;
         position: absolute;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         height: auto;
         font-size: 0.8rem;
         width: auto;
@@ -1513,7 +1513,7 @@ iframe {
         height: 60%;
     }
 
-    #feedback_stars {
+    .feedback_stars {
         height: 20%;
         font-size: 0.8rem;
     }
@@ -1611,16 +1611,16 @@ iframe {
        width: 100%;   
    }
 
-    .order_contact_form #order_form h2 {
+    .order_contact_form .order_form h2 {
         font-size: 1.5rem;
     }
 
-    .order_contact_form #order_form p {
+    .order_contact_form .order_form p {
         font-size: 1rem;
         text-align: center;
     }
 
-    .order_contact_form #order_form textarea {
+    .order_contact_form .order_form textarea {
         height: 20%
     }
     
@@ -1634,12 +1634,12 @@ iframe {
         font-size: 1rem;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         margin-top: 10%;
         position: absolute;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         height: auto;
         font-size: 0.8rem;
         width: auto;
@@ -1984,7 +1984,7 @@ iframe {
         height: 60%;
     }
 
-    #feedback_stars {
+    .feedback_stars {
         height: 20%;
         font-size: 0.8rem;
     }
@@ -2030,16 +2030,16 @@ iframe {
        width: 100%;   
     }
 
-    .order_contact_form #order_form h2 {
+    .order_contact_form .order_form h2 {
         font-size: 1.5rem;
     }
 
-    .order_contact_form #order_form p {
+    .order_contact_form .order_form p {
         font-size: 1rem;
         text-align: center;
     }
 
-    .order_contact_form #order_form textarea {
+    .order_contact_form .order_form textarea {
         height: 20%
     }
     
@@ -2053,12 +2053,12 @@ iframe {
         font-size: 1rem;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         margin-top: 10%;
         position: absolute;
     }
 
-    #order_form .form-button {
+    .order_form .form-button {
         height: auto;
         font-size: 0.8rem;
         width: auto;

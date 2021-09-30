@@ -35,14 +35,14 @@
                 </ul>
             </nav>
         </header>
-        <setion>
+        <div>
             <div class="title_spacer">
                 <h2 class="center-align-h2">we are here to help</h2> 
                 <h1 class="center-align-h1">Contact Us</h1> 
                 <hr>
              </div> 
-        </setion>
-        <section id="main_contact_container_1">
+        </div>
+        <div id="main_contact_container_1">
             <div id="form_containers">
                 <form method="post" action="https://formdump.codeinstitute.net" class="contact-page-form" target="_blank">
                     <label for="fname"></label>
@@ -54,26 +54,26 @@
                     <label for="phone"></label>
                     <input type="tel" id="phone" name="user_phone" class="text-input" placeholder="Your Phone Number (Optional)" maxlength="13">
                     <label for="contact_reason"></label>
-                    <select name="contact_reason" id="contact_reason" class="text-input">
-                        <option name="enquiry_reason" value="enquiry_reason">Enquiry Reason</option>
-                        <option name="general_enquiry" value="general_enquiry">General Enquiry</option>
-                        <option name="special_order" value="special_order">Special Order</option>
-                        <option name="event_booking" value="event_booking">Event Booking</option>
-                        <option name="help_with_my_order" value="help_with_my_order">Help With My Order</option>
-                        <option name="leave_feedback" value="leave_feedback">Leave Feedback</option>
+                    <select id="contact_reason" id="contact_reason" class="text-input">
+                        <option id="enquiry_reason" value="enquiry_reason">Enquiry Reason</option>
+                        <option id="general_enquiry" value="general_enquiry">General Enquiry</option>
+                        <option id="special_order" value="special_order">Special Order</option>
+                        <option id="event_booking" value="event_booking">Event Booking</option>
+                        <option id="help_with_my_order" value="help_with_my_order">Help With My Order</option>
+                        <option id="leave_feedback" value="leave_feedback">Leave Feedback</option>
                     </select>                          
                     <label for="usermessage"></label>
-                    <textarea type="text" id="usermessage" name="user_message" class="text-input" rows="20" cols="50" placeholder="Your Message" required></textarea>
+                    <textarea id="usermessage" name="user_message" class="text-input" rows="20" cols="50" placeholder="Your Message" required></textarea>
                     <input type="submit" class="send-button vertical-center-cont-button" value="Send Message">
                 </form>    
             </div>
-        </section>
+        </div>
         <div class="title_spacer">
             <h2 class="center-align-h2">We are connected</h2> 
             <h1 class="center-align-h1">Contact us via Social</h1> 
             <hr>
          </div> 
-        <section id="main_contact_container_2">
+        <div id="main_contact_container_2">
 
             <div class="social_contact">
                 <ul class="social_con_networks">
@@ -87,23 +87,24 @@
                         <a href="https://instagram.com/marianas_bakehouse" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul> 
-        </section>
+            </div>
+        </div>    
         <div class="title_spacer">
             <h2 class="center-align-h2">Visit us</h2> 
             <h1 class="center-align-h1">Our Shop Address</h1> 
             <hr>
         </div>
-        <section id="main_contact_container_3">
+        <div id="main_contact_container_3">
             <div id="comp_details">
                 <div id="our_address" class="social_comp_item">
                     <h1>Visit Us</h1>
-                        <p>6 Bachelors Walk,</p>
-                        <p>North City,</p>
-                        <p>Dublin 1,</p>
-                        <p>D01 C953,</p>
-                        <p>Ireland</p>
-                        <br>
-                        <p>Tel: +353-1-234-5678</p>
+                    <p>6 Bachelors Walk,</p>
+                    <p>North City,</p>
+                    <p>Dublin 1,</p>
+                    <p>D01 C953,</p>
+                    <p>Ireland</p>
+                    <br>
+                    <p>Tel: +353-1-234-5678</p>
                  </div>
                 <div id="opening_times" class="social_comp_item">
                     <h1> Our Opening Times</h1>
@@ -115,12 +116,12 @@
                     <p>Sat: 10:00 - 16:00</p>
                     <p>Sun: 10:00 - 16:00</p>                           
                 </div>
-                
             </div>
+        </div>
              
-             <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9527.202027353824!2d-6.271742230224608!3d53.346827200000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8368626aa9%3A0x666de3f92f515f3d!2sThe%20Bakehouse%20Dublin!5e0!3m2!1sen!2snl!4v1632657502303!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-             </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9527.202027353824!2d-6.271742230224608!3d53.346827200000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8368626aa9%3A0x666de3f92f515f3d!2sThe%20Bakehouse%20Dublin!5e0!3m2!1sen!2snl!4v1632657502303!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
 
         <footer id="footer_main_container">
             <div id="footer_social" class="footer_container">
@@ -145,7 +146,7 @@
                         <input type="radio" id="weekly" name="sub_preference" value="weekly" required>
                         <label for="monthly">Monthly</label>
                         <input type="radio" id="monthly" name="sub_preference" value="monthly" required>
-                        <input type="email" id="email" name="email_address" class="text-input" placeholder="Enter your email" required>
+                        <input type="email" id="email_sub" name="email_address" class="text-input" placeholder="Enter your email" required>
                         <input type="submit" class="subscribe-button" value="Subscribe">
                     </form>  
                 </div>
@@ -160,22 +161,21 @@
                         <a href="order.html" aria-label="Visit our Order page (opens in same tab)">Order</a>
                     </li>
                     <li>
-                        <a href="contact.html"  aria-label="Visit our Contact page (opens in a new tab)"></i>Contact</a>
+                        <a href="contact.html"  aria-label="Visit our Contact page (opens in a new tab)">Contact</a>
                     </li>
                     <li>
                         <a href="gallery.html" aria-label="Visit our Gallery page (opens in a new tab)">Gallery</a>
                     </li>
                 </ul>
-            </ul>
             </div>
-            <span>
+            <div>
                 <br>
-                <p id="copyright"><i class="far fa-copyright"></i> Copyright - Designed and produced by Edgaras Spiridonov</p>
+                    <p id="copyright"><i class="far fa-copyright"></i> Copyright - Designed and produced by Edgaras Spiridonov</p>
                 <br>
-            </span>
+            </div>
 
         </footer>
         <!-- font awesome script -->
         <script src="https://kit.fontawesome.com/3c68c06703.js" crossorigin="anonymous"></script>
-      </body>
+    </body>
 </html>
