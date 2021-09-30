@@ -217,16 +217,17 @@ hr {
 
 .featured-prod-container .prod-info h1 {
      color:#E7F0EF;
-     font-size: 100%;
-     letter-spacing: 0.3rem;
+     font-size: 0.9rem;
+     letter-spacing: 0.1rem;
      text-transform:capitalize;
      text-align: center;
-     margin: 0.5rem 0;
+     margin: 2px 0;
  }
  .featured-prod-container .prod-info p {
     color:#E7F0EF;
-    font-size: 90%;
+    font-size: 0.7rem;
     text-align: center;
+    
     margin: 0px;
 }
 
