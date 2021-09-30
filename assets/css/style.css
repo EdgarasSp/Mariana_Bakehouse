@@ -483,7 +483,7 @@ textarea {
     color: #1f2b33;
     width: 33%;
     min-width: 33%;
-    height: 150px;
+    height: 140px;
     overflow: hidden;
     position: relative;
 }
@@ -906,6 +906,8 @@ iframe {
     padding-left: 10px;
 }
 
+
+
     /*Diatary Information*/
 
 #dietary_info {
@@ -918,6 +920,8 @@ iframe {
     /* Order_form */
 
 .order_form {
+    display: inline-block;
+    text-align: center;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -955,14 +959,19 @@ iframe {
     width: auto;
 }
 
-.order_form_info {
+#order_form_info {
     width: 80%;
     margin: 0 10%;
     padding: 2% 0%;
+    
+}
+
+#order_form_info p{
+    text-align: center;
+    font-size: 80%;
     letter-spacing: .008rem;
 }
 
-    /* gallery media queries */
 
 /*
 548
@@ -1233,7 +1242,7 @@ iframe {
 
    .order_submit_form .container_left, .order_submit_form .container_right {
        float: none;
-       height:1000px;
+       height:500px;
        width: 100%;   
    }
 
@@ -1247,7 +1256,7 @@ iframe {
     }
 
     .order_contact_form .order_form textarea {
-        height: 20%
+        height: 40%
     }
     
    .order_submit_form {
@@ -1526,8 +1535,8 @@ iframe {
 
     #footer_social p, #footer_subscribe p, #footer_nav_links p {
         text-align: center;
-        margin-bottom: 30px;
-        padding-top: 20px;
+        margin-bottom: 5px;
+        padding-top: 5px;
     }
 
     /* footer social and links*/
@@ -1607,7 +1616,7 @@ iframe {
 
    .order_submit_form .container_left, .order_submit_form .container_right {
        float: none;
-       height:1000px;
+       height: 500px;
        width: 100%;   
    }
 
@@ -1621,7 +1630,7 @@ iframe {
     }
 
     .order_contact_form .order_form textarea {
-        height: 20%
+        height: 40%
     }
     
    .order_submit_form {
@@ -2026,7 +2035,7 @@ iframe {
 
     .order_submit_form .container_left, .order_submit_form .container_right {
        float: none;
-       height:1000px;
+       height: 500px;
        width: 100%;   
     }
 
@@ -2040,7 +2049,7 @@ iframe {
     }
 
     .order_contact_form .order_form textarea {
-        height: 20%
+        height: 40%
     }
     
    .order_submit_form {
