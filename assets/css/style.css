@@ -424,7 +424,7 @@ hr {
     margin: 0px 1%;
     width: 10%;
     min-width: 140px;
-    height: 200px;
+    height: 230px;
     overflow: hidden;
     position: relative;
     border-radius: 3%;
@@ -555,13 +555,14 @@ textarea {
 .subscription_form .text-input  {
     height: 1.2rem;
     margin: 5px 20px;
+    background-color: #fff;
 }
 
 .subscription_form #email_sub {
     width: 80%;
     margin-top: 5px;
     background-color: #fff;
-    border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
+    border-bottom: rgba(149, 153, 149, 0.6) solid 1px;
 }
 
 .subscribe-button {
