@@ -1,4 +1,4 @@
-<a href="https://imgur.com/MsE0yso"><img src="https://i.imgur.com/MsE0yso.png" title="source: imgur.com - README_COVER" /></a>
+<a href="https://imgur.com/ZOuzYsM"><img src="https://i.imgur.com/ZOuzYsM.png" title="source: imgur.com" /></a>
 
 # MARIANA BAKEHOUSE
 
@@ -116,7 +116,7 @@ Site was designed using the [Balsamiq](https://balsamiq.com/) wireframe toolset.
 * [1200px](https://i.imgur.com/tSJLDRs.png)
 * [1024px](https://i.imgur.com/3EMehPY.png)
 * [768px](https://i.imgur.com/bbp9b4m.png)
-* [420px](https://i.imgur.com/z1SWSe0.png)
+* [548px](https://i.imgur.com/z1SWSe0.png)
 
 
 ### **2.2.3. Images**
@@ -171,11 +171,11 @@ Website has been designed to meet accesability requirments, key areas were:
 
 * __Images and media__
 
-	* All images and media were taged using <######> to aid visualy impared and to display description when images do not load.
+	* All images and media were taged using ```<alt>``` to aid visualy impared and to display description when images do not load.
 
 * __Forms and input__
 
-	* All forms were taged using <######> to aid visualy impared and to display description when images do not load.
+	* All forms were taged using  ```<aria-label> ```to aid visualy impared and to display description when images do not load.
 
 <br>
 
@@ -214,7 +214,7 @@ Home page designed to provide a snippit of what is available on the website. The
 
 * __Cover Image__ - Added to indicate clearly the purpose for the site, image showing bakery products and company name. Additonaly cover page has "SHOP NOW" button for user to navigate directly to the "ORDER" page.
 
-* __Featured Products__ - Section added to provide a quick way to see and view the most favourite products supplied by the bakery. Button "VIEW" added to each product redirecting user to the "ORDER" page.
+* __Featured Products__ - Section added to provide a quick way to see and view the most favourite products supplied by the bakery. Button "ORDER" added to each product redirecting user to the "ORDER" page.
 
 * __Special Orders__ - Section added to indicate that special orders are accepted and allow user quickly navigate to the necessary page to place an order. Button "CONTACT US" was added, when user clicks ouser will be redirected to the "CONTACT" page where they can place the special order using the form provided.
 

@@ -190,11 +190,11 @@ hr {
 }
 
 #featured-prod-1 {
-    background-image: url("../images/products/CA_01_caramel and coconut cake.jpg");
+    background-image: url("../images/products/CA_01_caramel_and_coconut_cake.jpg");
 }
 
 #featured-prod-2 {
-    background-image: url("../images/products/CA_02_honey and yougurt cake.jpg");
+    background-image: url("../images/products/CA_02_honey_and_yougurt_cake.jpg");
 }
 
 #featured-prod-3 {
@@ -980,12 +980,6 @@ iframe {
     letter-spacing: .008rem;
 }
 
-
-/*
-548
-768
-1024
-*/
 
 
 @media screen and (max-width: 1024px) {
