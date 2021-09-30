@@ -82,7 +82,7 @@ font-weight: 800;
  }
 
 #banner-image {
-    height: 750px;
+    height: 700px;
     max-width: 100%;
     background-image: url("../images/banner/pexels-rachel-claire-5490820_modified.jpg");
     background-size: cover;
@@ -151,9 +151,9 @@ font-weight: 800;
 
 .featured-prod-container {
     display: inline-block;
-    margin: 0px 2%;
-    width: 20%;
-    height: 500px;
+    margin: 0px 5px;
+    width: 23%;
+    height: 400px;
     overflow: hidden;
     position: relative;
     border-radius: 3%;
@@ -168,7 +168,7 @@ hr {
 .vertical-center-prod-button {
     margin: 0;
     position: absolute;
-    top: 450px;
+    top: 350px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -201,21 +201,20 @@ hr {
 
 
 #bespoke-prod-info-container {
-    height:750px;
+    height:700px;
     width: 100%;
-    margin-top: 40px;
     overflow: hidden;
     position: relative;
 }
 
 #bespke-background-image {
     background-image: url("../images/products/lemon_cake.jpg");
-    height: 750px; 
+    height: 700px; 
     max-width: 100%;  
 }
 
 #bespoke-prod-info-text {
-    width: 300px;
+    width: 400px;
     height: 250px;
     background-color: #263640;
     border-radius: 3%;
@@ -282,13 +281,13 @@ hr {
 
 .container_left {
     float: left;
-    height:510px;
+    height:500px;
     width: 50%;   
 }
 
 .container_right {
     float: right;
-    height:510px;
+    height:500px;
     width: 50%;
 }
 
@@ -321,16 +320,20 @@ hr {
 }
 
 /* change to html imga src */
+
 #home_contact_media {
     background-color: #E7F0EF;
     background-image: url("../images/shop/open_sign.jpg");
-    max-height: 510px; 
+    max-height: 500px; 
     max-width: 100%;
 }
 
+.home_video {
+    width: 100%;
+    height: 500px;
+}
 
 /* home page form*/
-
 
 #home_form_container {
     margin: 30px 100px 30px 100px;
@@ -340,7 +343,7 @@ hr {
 .main-contact-form {
     text-align: center;
     display:grid ;
-    height: 100%;
+    height: 90%;
     width: auto;
     text-align: left;
 }
@@ -350,38 +353,43 @@ hr {
     color: #263640;
     width: 80%;
     height: 30px;
-    margin: 5px 40px;
+    margin: 5px 0px;
     border-radius: 2px;
     border: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
 .main-contact-form textarea {
-    height: 180px;
+    height: 150px;
     font-family: inherit;
 }
 
 .main-contact-form .vertical-center-cont-button {
     position: relative;
+    margin-left: -10%;
 }
 
-/* Feedback */
-
+ 
 #feedback_main_container {
     margin-top: 40px;
+    text-align: center;
 
 }
 .fedback_container {
     display: inline-block;
     background-color: rgba(211, 216, 211, 0.3);
     color: #263640;
-    margin: 0px 3.1%;
+    margin: 0px 1%;
     width: 10%;
-    min-width: 150px;
+    min-width: 140px;
     height: 200px;
     overflow: hidden;
     position: relative;
     border-radius: 3%;
     border: rgba(211, 216, 211, 0.6) solid 1px;
+}
+
+.feedback_title p, .feedback_message p {
+    font-size: 0.8rem;
 }
 
 .fedback_container p {
@@ -390,14 +398,14 @@ hr {
 }
 
 .feedback_title {
-    height: 35px;
+    height: 20%;
     width: 100%;
     font-size: 100%;
     border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
 .feedback_message {
-    height: 110px;
+    height: 50%;
     width: 100%;
     font-size: 90%;
     margin-bottom: 10px;
@@ -410,7 +418,7 @@ textarea {
 }
 
 #feedback_stars {
-    height: 40px;
+    height: 20%;
     width: 100%;
     text-align: center;
     font-size: 100%;
@@ -432,29 +440,29 @@ textarea {
     color: #1f2b33;
     width: 33%;
     min-width: 33%;
-    height: 150px;
+    height: 180px;
     overflow: hidden;
     position: relative;
 }
 
 #footer_social p {
-    margin: 20px 50px 10px 50px;
+    margin: 20px 2% 5px 2%;
     text-align: left;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 0.8rem;
 }
 
 #footer_subscribe p {
-    margin: 20px 2%;
+    margin: 20px 2% 5px 2%;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 0.8rem;
 }
 
 #footer_nav_links p {
     margin: 20px 6%;
     text-align: right;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 0.8rem;
 }
 
 /* social and links*/
@@ -497,19 +505,30 @@ textarea {
 .subscription_form label {
     text-decoration: none;
     color: #263640;
-    font-size: 90%;
+    font-size: 0.7rem;
     margin-left: 7%;
 }
 
+.subscription_form .text-input  {
+    height: 1.2rem;
+    margin: 5px 20px;
+}
+
 .subscription_form #email {
-    width: 60%;
-    margin-top: 20px;
+    width: 80%;
+    margin-top: 5px;
     background-color: #fff;
     border-bottom: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
 .subscribe-button {
-    height: 2rem;
+    height: auto;
+    font-size: 0.7rem;
+    width: 100px;
+    padding: 8px;
+    margin-left: 35%;
+    margin-bottom: 5px;
+    border: rgba(38, 54, 64, 0.8) solid 1px;
 }
 
 /* Gallery */
@@ -1074,50 +1093,59 @@ iframe {
     }
  
      /*site wide footer */
-/*
-    .footer_container {
-        display: inline;
+
+    /* footer */
+
+    #footer_main_container {
+        margin-top: 60px;
+        background-color: #E7F0EF; 
     }
 
-    #footer_social p, #footer_subscribe p, #footer_nav_links p {
-        text-align: center;
-        margin-bottom: 30px;
-        padding-top: 20px;
+    .footer_container {  
+        width: 31%;
+        min-width: 31%;
+        height: 150px;
     }
 
-    /* footer social and links*/
-    /*.hide {
-        opacity: 0%;
+    #footer_social p {
+        font-size: 0.8rem;
     }
 
-    .social-networks, .footer_links {
-        text-align: center;
+    #footer_subscribe p {
+        margin: 20px 2% 5px 2%;
+        font-size: 0.8rem;   
     }
 
-    .social-networks li{
-        width: 100px;
+    #footer_nav_links p {
+        font-size: 0.8rem;
     }
 
-    .social-networks li, .footer_links li {
-        display: inline-block;
-        padding-bottom: 15px;
-    }
+    /* social and links*/
 
-    .social-networks i {
-        width: auto;
-        font-size: 3rem;
-    }
-    .footer_links li {
-        width: 20%;
-        font-size: 1.2rem;
+    .social-networks li a, .footer_links li a {
+        font-size: 0.8rem;
     }
 
     #copyright {
-        font-size: 10px;
+        margin-left: 1%;
+        font-size: 70%;
     }
-    
-    #copyright i {
-        margin-right: 10px;
+
+    /*subscription*/
+
+    .subscription_form .text-input  {
+        height: 1.2rem;
+        margin: 5px 20px;
+    }
+
+
+    .subscription_form label {
+        font-size: 0.7rem;
+    }
+
+    .subscription_form #email {
+        margin-top: 5px;
+        width: 80%;
     }
 
     .subscribe-button {
@@ -1125,77 +1153,15 @@ iframe {
         font-size: 0.7rem;
         width: 100px;
         padding: 8px;
-        
-    }*/
+        margin-left: 30%;
+        margin-bottom: 5px;
+        border: rgba(38, 54, 64, 0.8) solid 1px;
+    }
+    /* Gallery */
 
-    /* footer */
-
-#footer_main_container {
-    margin-top: 60px;
-    background-color: #E7F0EF; 
-}
-
-.footer_container {  
-    width: 31%;
-    min-width: 31%;
-    height: 150px;
-}
-
-#footer_social p {
-    font-size: 0.8rem;
-}
-
-#footer_subscribe p {
-    margin: 20px 2% 5px 2%;
-    font-size: 0.8rem;   
-}
-
-#footer_nav_links p {
-    font-size: 0.8rem;
-}
-
-/* social and links*/
-
-.social-networks li a, .footer_links li a {
-    font-size: 0.8rem;
-}
-
-#copyright {
-    margin-left: 1%;
-    font-size: 70%;
-}
-
-/*subscription*/
-
-.subscription_form .text-input  {
-    height: 1.2rem;
-    margin: 5px 20px;
-}
-
-
-.subscription_form label {
-    font-size: 0.7rem;
-}
-
-.subscription_form #email {
-    margin-top: 5px;
-    width: 80%;
-}
-
-.subscribe-button {
-    height: auto;
-    font-size: 0.7rem;
-    width: 100px;
-    padding: 8px;
-    margin-left: 30%;
-    margin-bottom: 5px;
-    border: rgba(38, 54, 64, 0.8) solid 1px;
-}
-/* Gallery */
-
-.title_spacer {
-    margin-bottom: 50px;
-}
+    .title_spacer {
+        margin-bottom: 50px;
+    }
 
 
     /* order page */
@@ -1272,7 +1238,6 @@ iframe {
         margin: 5% -10%;
     }
 
-        
     /* Contact page */
 
     #main_contact_container_1 {
@@ -1652,7 +1617,6 @@ iframe {
         padding: 10px;
         margin: 5% -10%;
     }
-
         
     /* Contact page */
 
@@ -1724,7 +1688,6 @@ iframe {
 
     /* gallery images*/
 
-   
     .album_container {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 300px;
@@ -1784,71 +1747,63 @@ iframe {
     #header-menu a {
         font-size: 0.7rem; 
         line-height: 25px;
-       
     }   
 
+    /*site wide footer */
 
+    .footer_container {
+        display: inline;
+    }
 
- 
-/*site wide footer */
+    #footer_social p, #footer_subscribe p, #footer_nav_links p {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 5px;
+    }
 
-.footer_container {
-    display: inline;
-}
+    /* footer social and links*/
+    .hide {
+        opacity: 0%;
+    }
 
-#footer_social p, #footer_subscribe p, #footer_nav_links p {
-    text-align: center;
-    margin-bottom: 30px;
-    padding-top: 5px;
-}
+    .social-networks, .footer_links {
+        text-align: center;
+    }
 
-/* footer social and links*/
-.hide {
-    opacity: 0%;
-}
+    .social-networks li{
+        width: 80px;
+    }
 
-.social-networks, .footer_links {
-    text-align: center;
-}
+    .social-networks li, .footer_links li {
+        display: inline-block;
+    }
 
-.social-networks li{
-    width: 80px;
-}
+    .social-networks i {
+        width: auto;
+        font-size: 3rem;
+    }
+    .footer_links li {
+        width: 20%;
+        font-size: 1.1rem;
+    }
 
-.social-networks li, .footer_links li {
-    display: inline-block;
-    
-}
+    #copyright {
+        font-size: 10px;
+    }
 
-.social-networks i {
-    width: auto;
-    font-size: 3rem;
-}
-.footer_links li {
-    width: 20%;
-    font-size: 1.1rem;
+    #copyright i {
+        margin-right: 10px;
+    }
 
-}
-
-#copyright {
-    font-size: 10px;
-}
-
-#copyright i {
-    margin-right: 10px;
-}
-
-.subscribe-button {
-    height: auto;
-    font-size: 0.7rem;
-    width: 100px;
-    padding: 8px;
-    margin-left: 30%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    
-    
-}
+    .subscribe-button {
+        height: auto;
+        font-size: 0.7rem;
+        width: 100px;
+        padding: 8px;
+        margin-left: 30%;
+        margin-bottom: 10px;
+        margin-top: 10px;        
+    }
 
 
     /* home page */
@@ -2025,30 +1980,30 @@ iframe {
         margin-top: 10%;
     }
 
-   .prod-image .prod-info p {
+    .prod-image .prod-info p {
        font-size: 0.9rem;
-   }
+    }
    
-   .prod_order_form tr th {
+    .prod_order_form tr th {
        font-size: 0.9rem;
-   }
+    }
 
-   .prod_order_form tr td {
+    .prod_order_form tr td {
        font-size: 0.9rem;
        padding: 5px 0;
-   }
+    }
 
-   .prod_order_form .order-input {
+    .prod_order_form .order-input {
        height: 0.9rem;
        width: auto;
        font-size: 1rem;
-   }
+    }
 
-   .order_submit_form .container_left, .order_submit_form .container_right {
+    .order_submit_form .container_left, .order_submit_form .container_right {
        float: none;
        height:1000px;
        width: 100%;   
-   }
+    }
 
     .order_contact_form #order_form h2 {
         font-size: 1.5rem;
@@ -2160,18 +2115,18 @@ iframe {
     .album_container {
         grid-template-columns: 1fr; 
         grid-auto-rows: 300px;
-   }
+    }
 
-   .album_item .image_description h1 {
+    .album_item .image_description h1 {
         font-size: 1.3rem;
         margin-top: 18%;
-   }
+    }
 
-   .album_item .image_description p {
+    .album_item .image_description p {
        font-size: 0.9rem;
-   }
+    }
    
-   .album_item .resp_text h1 {
+    .album_item .resp_text h1 {
         margin-top: 40%;
-   }
+    }
 }
