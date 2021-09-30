@@ -9,17 +9,16 @@
 &nbsp;&nbsp;&nbsp; [2.2. Build](#22-build)   
 [3. Features](#3-features)  
 &nbsp;&nbsp;&nbsp; [3.1. Header and Footer](#31-header-and-footer)   
-&nbsp;&nbsp;&nbsp; [3.2. Home](#32-home)  
-&nbsp;&nbsp;&nbsp; [3.3. About](#33-about)  
-&nbsp;&nbsp;&nbsp; [3.4. Order](#34-order)  
-&nbsp;&nbsp;&nbsp; [3.5. Contact](#35-contact)  
-&nbsp;&nbsp;&nbsp; [3.6. Gallery](#36-gallery)  
+&nbsp;&nbsp;&nbsp; [3.2. Home](#32-home)   
+&nbsp;&nbsp;&nbsp; [3.3. Order](#33-order)  
+&nbsp;&nbsp;&nbsp; [3.4. Contact](#34-contact)  
+&nbsp;&nbsp;&nbsp; [3.5. Gallery](#35-gallery)  
 [4. Testing](#4-testing)   
 &nbsp;&nbsp;&nbsp; [4.1. Bugs and Fixes](#41-bugs-and-fixes)  
 &nbsp;&nbsp;&nbsp; [4.2. Integrity](#42-integrity)  
 &nbsp;&nbsp;&nbsp; [4.3. Build](#43-build)  
 [5. Road Map](#5-road-map)    
-&nbsp;&nbsp;&nbsp; [5.1. Esential Features](#51-esential-features)  
+&nbsp;&nbsp;&nbsp; [5.1. Essential Features](#51-essential-features)  
 &nbsp;&nbsp;&nbsp; [5.2. Additional Features](#52-additional-features)  
 [6. Deployment](#6-deployment)    
 &nbsp;&nbsp;&nbsp; [6.1. Deployment to GitHub](#61-deployment-to-github)  
@@ -34,19 +33,19 @@
 
 # **1. Introduction**
 > ##### [Table of Content](#table-of-contents)
-<br>
+
 
 Project is intended to help a local bakery to be more accessible and expand it's reach to all customers via the digital storefront 24/7. This website provides a platform for ordering baked products and a way for customer to contact the bakery with any queries or special requests. To aid the customer, the website host visual and assisted information about the products and additional “About”, “Order”, “Contact” and “Gallery” pages for additional information. 
 
 Websites sole purpose is to provide for new and existing customers a streamlined ordering service via the digital storefront for both personal and corporate events. 
 
-The majority of the bakeries accommodate only over the phone ordering service and/or in-shop service only, consequentialy excluding a portion of potential customers due to accesability limitations. This website tries to address this issue by catering for all customers, with accessible and stress-free ordering service available 24/7.
+The majority of the bakeries accommodate only over the phone ordering service and/or in-shop service only, consequentially excluding a portion of potential customers due to accessibility limitations. This website tries to address this issue by catering for all customers, with accessible and stress-free ordering service available 24/7.
 
 <br>
 
 # **2. Initial Development** 
 > ##### [Table of Content](#table-of-contents)
-<br>
+
 
 ## **2.1.  Use Case**
 
@@ -64,14 +63,14 @@ The majority of the bakeries accommodate only over the phone ordering service an
 * Order products without a need to verbally engage with the bakery staff. 
 * Contact the bakery outside normal working hours.
 
-### **Customer UX Requirments:**
+### **Customer UX Requirements:**
 1. View product information.
 2. View bakery Information.
 3. Order products.
 4. Request products.
 5. Contact the bakery.
 
-### **Customer UX Requirment Solution:**
+### **Customer UX Requirement Solution:**
 1. To view Product information:
 
 	Customers can hover over the product image on the home page featured products section or by customer navigating to the order page via the navbar and/or the footer “ORDER” link or via “SHOP NOW” or “ORDER” buttons located on the home page. 
@@ -109,9 +108,9 @@ Site uses HTML and CSS programming languages.
 
 ### **2.2.2. Wireframe**
 
-Site was designed using the [Balsamiq](https://balsamiq.com/) wireframe toolset. Wireframes enabled to mock up and test layout designs to accomodate variouse media screen sizes.
+Site was designed using the [Balsamiq](https://balsamiq.com/) wireframe toolset. Wireframes enabled to mock up and test layout designs to accommodate various media screen sizes.
 
- Wireframe page designs were based on 4 screen sizes, designs are accesable via below links:
+ Wireframe page designs were based on 4 screen sizes, designs are accessible via below links:
  
 * [1200px](https://i.imgur.com/tSJLDRs.png)
 * [1024px](https://i.imgur.com/3EMehPY.png)
@@ -132,7 +131,7 @@ Logo was created using web based design tool [Logomaker](https://www.logomaker.c
 
 ### **2.2.4. Color**
 
-Dominant color was matched againts the extracted complement color using the [Adobe Color](https://color.adobe.com/create/image) tool and the image used for the complement color identification and extraction was the [cover photo](https://i.imgur.com/8fpD2NI.png).
+Dominant color was matched against the extracted complement color using the [Adobe Color](https://color.adobe.com/create/image) tool and the image used for the complement color identification and extraction was the [cover photo](https://i.imgur.com/8fpD2NI.png).
 
 
 Dominant color was generated using [ColorSpace](https://mycolor.space.com).
@@ -151,7 +150,7 @@ Text fonts obtained from [Google Fonts](https://fonts.google.com/).
 * Headings: [Signika](https://fonts.google.com/specimen/Signika#standard-styles)
 * Text:  	[Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
-Website Icons obtained from [Font Awsome](https://fontawesome.com/).
+Website Icons obtained from [Font Awesome](https://fontawesome.com/).
 
 Icon List:
 * [Facebook](https://fontawesome.com/v5.15/icons/facebook?style=brands)
@@ -161,37 +160,37 @@ Icon List:
 
 ### **2.2.6. Accessibility**
 
-Website has been designed to meet accesability requirments, key areas were:
+Website has been designed to meet accessibility requirements, key areas were:
 
 * __Contrast__
 
-	* Site foreground and background color combos were tested using [Contrast Grid](https://contrast-grid.eightshapes.com/) to comply with WCAG 2.0 minimum contrast requirments. 
+	* Site foreground and background color combos were tested using [Contrast Grid](https://contrast-grid.eightshapes.com/) to comply with WCAG 2.0 minimum contrast requirements. 
 
 	* Website contrast grind:  [Mariana Bakehouse](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23263640%2C%20Dominant%0D%0A%23EBF2F1%2CComplement%0D%0A%231C1B1B%2C%20Text%20A%0D%0A%23E7F0EF%2C%20Text%20B%0D%0A%20&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa)
 
 * __Images and media__
 
-	* All images and media were taged using ```<alt>``` to aid visualy impared and to display description when images do not load.
+	* All images and media were tagged using ```<alt>``` to aid visually impaired and to display description when images do not load.
 
 * __Forms and input__
 
-	* All forms were taged using  ```<aria-label> ```to aid visualy impared and to display description when images do not load.
+	* All forms were tagged using  ```<aria-label> ```to aid visually impaired and to display description when images do not load.
 
-<br>
+
 
 # **3. Features** 
 > ##### [Table of Content](#table-of-contents)
-<br>
+
 
 ## **3.1. Header and Footer**
 
-* __Logo__ - Each page displays a company logo. Logo uses same dominant color for consistancy, also when clicked on, it will direct user back to the home page for ease of navigation.
+* __Logo__ - Each page displays a company logo. Logo uses same dominant color for consistency, also when clicked on, it will direct user back to the home page for ease of navigation.
 
 	<a href="https://imgur.com/ZqvqHOb"><img src="https://i.imgur.com/ZqvqHOb.png" title="source: imgur.com - Logo" /></a>
 
 <br>
 
-* __Navbar__ - Navigation bar show on every page position in the center of the page for ease of use. Designed in this way to provide an intuative way to navigate to other pages within the wbsite. 
+* __Navbar__ - Navigation bar show on every page position in the center of the page for ease of use. Designed in this way to provide an intuitive way to navigate to other pages within the websites. 
 
 	Navbar has interactive features, such as hover over feature which set text to display in bold, and when user clicks on the navigational link, relative navbar tab will display in Bold telling user which page they are currently browsing.
 
@@ -199,46 +198,67 @@ Website has been designed to meet accesability requirments, key areas were:
 
 <br>
 
-* __Footer__ - Footer was designed to include 3 key sections, social, subscribe to the newsletter and suporting navigational links. Footer is show on all pages to create a consistant look and feel.
+* __Footer__ - Footer was designed to include 3 key sections, social, subscribe to the newsletter and supporting navigational links. Footer is show on all pages to create a consistent look and feel.
 
 	* To the left, listed social accounts Facebook, Twitter and Instagram account, each text hyperlinked to the relative site.
-	* In the center, user has option to subscribe to the newsletter and choose frequancy werrkly or monthly.
-	* To the right, listed navigational links to help users to navigat to other pages without a need to return to the top of the page.
+	* In the center, user has option to subscribe to the newsletter and choose frequency weekly or monthly.
+	* To the right, listed navigational links to help users to navigate to other pages without a need to return to the top of the page.
 
 	<a href="https://imgur.com/9Xdeyo6"><img src="https://i.imgur.com/9Xdeyo6.png" title="source: imgur.com" /></a>
 
 ## **3.2. Home**
 
-Home page designed to provide a snippit of what is available on the website. There are distict line brakes for each section and responcive navbar and footer for assisted navigation.
+Home page designed to provide a snippet of what is available on the website. There are distinct line brakes for each section and responsive navbar and footer for assisted navigation.
 
 
-* __Cover Image__ - Added to indicate clearly the purpose for the site, image showing bakery products and company name. Additonaly cover page has "SHOP NOW" button for user to navigate directly to the "ORDER" page.
+* __Cover Image__ - Added to indicate clearly the purpose for the site, image showing bakery products and company name. Additionally cover page has "SHOP NOW" button for user to navigate directly to the "ORDER" page.
 
-* __Featured Products__ - Section added to provide a quick way to see and view the most favourite products supplied by the bakery. Button "ORDER" added to each product redirecting user to the "ORDER" page.
+* __Featured Products__ - Section added to provide a quick way to see and view the most favourite products supplied by the bakery. Button "ORDER" added to each product redirecting user to the "ORDER" page and hover over will display product details.
 
-* __Special Orders__ - Section added to indicate that special orders are accepted and allow user quickly navigate to the necessary page to place an order. Button "CONTACT US" was added, when user clicks ouser will be redirected to the "CONTACT" page where they can place the special order using the form provided.
+* __Special Orders__ - Section added to indicate that special orders are accepted and allow user quickly navigate to the necessary page to place an order. Button "CONTACT US" was added, when user clicks user will be redirected to the "CONTACT" page where they can place the special order using the form provided.
 
-* __About "Snippit"__ - Section added to give a quick description about the bakery. A complimentary video added showcasing a cake being sliced to encourage a positive emotion and craving.
+* __About "Snippet"__ - Section added to give a quick description about the bakery. A complimentary video added showcasing a cake being sliced to encourage a positive emotion and food cravings.
 
-* __"Quick" Contact__ - Section added to give a quick method to send a message to the bakery without a need to navigate to the "CONTACT" page. Message can be sent directly from the Home page using the form provided and submiting by pressing button "SEND MESSAGE".
+* __"Quick" Contact__ - Section added to give a method to send a message to the bakery without a need to navigate to the "CONTACT" page. Message can be sent directly from the "Home" page using the form provided and submitting by pressing button "SEND MESSAGE".
 
-* __Feedback__ - Section added to provide feedback received from the existing customers to reasure new customers about the quality of the product produced by the bakery. Feedback has been received using the "CONTACT" form and not via 3rd party review application or websites.
+* __Feedback__ - Section added to provide feedback received from the existing customers to reassure new customers about the quality of the product produced by the bakery. Feedback has been received using the "CONTACT" form and not via 3rd party review application or websites.
 
-## **3.3. About**
+## **3.3. Order**
 
-Placeholder Text
+Order page designed to provide a basic method to place and order by specifying the quantities of the desired products and then by submitting the order by completing the order form.
 
-## **3.4. Order**
+* __Product List__ - Section divided into three sub-categories by the product type. Bakery currently offer three main categories for the customer to choose from "Cakes", "Brownies and Pastries".
 
-Placeholder Text
+    Section, shows a representative image of the product, user can however over the product to reveal the product description. Below the image table provides details regarding order sizes and prices.
 
-## **3.5. Contact**
+    User to specify the quantities required by inputting the a number from 1-10 within "Order QTY" column.
 
-Placeholder Text
+* __Dietary Information__ - Section provides information regarding the dietary requirements to ensure to inform customers of potential allergens with our products.
 
-## **3.6 Gallery**
+* __Submit your Order__ - At this particular version of the site, we are unable to setup online payment system. To enable customers to place the order, form has been added to obtain:
+    * Customer details,
+    * Delivery information if applicable
+    * Due date for the order to be fulfilled.  
 
-Placeholder Text
+    At the point of submission, a list of SKU ID's assigned to each product is built. Bakery staff will identify the product by SKU ID and only if the customer has changed the QTY from 0 to a number between 1-10 on any of the products, order will be processed. 
+
+## **3.4. Contact**
+
+Page design to provide customers more detail method of communication and also to inform about alternative ways to get in touch with the bakery, including shop address for collections.
+
+* __Contact Us__ - Form designed to allow user to submit any queries or to provide feedback. User has an option to specify the "Enquiry Reason" and by doing so we are in position to deal with queries more efficiently.
+
+* __Contact Us__ - Provides an alternative method to contact the bakery via "Direct Message", which easily can be done by clicking on the available icons.
+
+* __Our Shop Address__ - To help people find the bakery, section was added with shop address and the opening times. Section also includes a handy embedded map showing the bakery location on the map for ease of navigation.
+
+## **3.5 Gallery**
+
+This sections contains pictures of customer who used our services for various occasions such as birthdays and anniversaries and of course weddings.
+
+By hovering over the pictures customer will be shown additional information about the pictures.
+
+* __Contact Us__ - Form designed to allow user to submit any query
 
 <br>
 
@@ -248,64 +268,73 @@ Placeholder Text
 
 ## **4.1. Bugs and Fixes**
 
-Placeholder Text
+1.  On click function did not work, after some research and troubleshooting identified that I have typed   ``` onclick="href='/pages/order.html' ``` instead of ```onclick="location.href='/pages/order.html' ```
+
+    Corrected code snippet below:
+
+    ```html
+    <section id="banner-container">
+                <div id="banner-image"></div>
+                <div class="vertical-center-button">
+                    <input type="button" onclick="location.href='/pages/order.html'" class="shop-button" value="Shop Now" >
+                </div>
+            </section>
+    ```
 
 
-```html
-<section id="banner-container">
-            <div id="banner-image"></div>
-            <div class="vertical-center-button">
-                <input type="button" onclick="location.href='/pages/order.html'" class="shop-button" value="Shop Now" >
-            </div>
-        </section>
-```
+2. Issue with not showing grid images inline and css was stacking images on top of each other, or in a single column.
+    
+    Solution was to add additional div elements, original code below. NOTE! Showing 2 img line elements only to save space.
 
-issue with not showing grid images inline and was stacking images on top of each other, or iin a single column when added additional div elements, original code below, but showing just 2 img elements for less space.
+    Original code snippet below:
 
-```html
-        <setion class="album_container">
-            <h1> Social Celebrations</h1>
-            <div class="album_photo_container">
-                <div class="image">
-                    <img src="/assets/images/gallery/SC_01-pexels-any-lane-5727978.jpg" class="album_photo" alt="mom and daughter decorating a sponge cake with chocolate">
-                    <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a srawberry cake placed on the table">
-                                </div>
-            </div>
-        </setion>
-```
+    ```html
+            <section class="album_container">
+                <h1> Social Celebrations</h1>
+                <div class="album_photo_container">
+                    <div class="image">
+                        <img src="/assets/images/gallery/SC_01-pexels-any-lane-5727978.jpg" class="album_photo" alt="mom and daughter decorating a sponge cake with chocolate">
+                        <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a strawberry cake placed on the table">
+                                    </div>
+                </div>
+            </section>
+    ```
 
-css code original
+    Original CSS code:
 
-```css
-.album_container {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-auto-rows: 100px 300px;
-    grid-gap: 10px;
-}
+    ```css
+    .album_container {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 100px 300px;
+        grid-gap: 10px;
+    }
 
-.album_photo_container {
-    width: 100%;
-    Height: 100%;
-    position: relative;
-}
+    .album_photo_container {
+        width: 100%;
+        Height: 100%;
+        position: relative;
+    }
 
-.album_photo_container .image {
-    width: 100%;
-    Height: 100%;
-    overflow: hidden;
-}
+    .album_photo_container .image {
+        width: 100%;
+        Height: 100%;
+        overflow: hidden;
+    }
 
-.album_photo_container .image img {
-    width: 100%;
-    Height: 100%;
-    object-fit: cover;
-```
+    .album_photo_container .image img {
+        width: 100%;
+        Height: 100%;
+        object-fit: cover;
+    ```
 
-to fix the issue found out that each image has to be in its own div wrapper and have same class applied.
+    Solution: To fix the issue had to place each image in it's own div wrapper and have same class applied to all images.
 
-```html
-      <setion class="album_container"> <!--container-->
+
+    Fixed code snippet below:
+
+    ```html
+      <section class="album_container"> <!--container-->
              <div class="album_photo_container"> <!--gallery_container-->
                 <div class="album_item"> <!--gallery_item-->
                     <div class="image"> <!--image-->
@@ -316,112 +345,219 @@ to fix the issue found out that each image has to be in its own div wrapper and 
             <div class="album_photo_container">
                 <div class="album_item">
                     <div class="image">        
-                        <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a srawberry cake placed on the table">
+                        <img src="/assets/images/gallery/SC_02-pexels-august-de-richelieu-4262422.jpg" class="album_photo" alt="family of 5 standing and looking down to a strawberry cake placed on the table">
                     </div>
                 </div>
             </div>
 
-```
+    ```
 
 
-issue with @media, property did not apply 768px and 420px did not apply in dev tools but ok in browser. showing both apply 1024px rule
+3. BIG ISSUE reported to CI.
 
-```css
+    Found and issue with @media queries, set breakpoints did not apply/function i.e 768px to i.e 420px in Chrome dev tools.
+    
+    @media queries were being applied correctly when not using the tool but instead resizing the browser page.
 
-@media screen and (max-width: 1024px) {
-    .album_container {
-        grid-template-columns: repeat(3, 1fr);
+    Code Institute Support confirmed the bug and requested to inform assessor that dev tools to check responsiveness should not be used, instead resize the browser window.
+    
+     CSS Rules below:
+    ```css
+
+    @media screen and (max-width: 1024px) {
+        .album_container {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
-}
 
-@media screen and (max-width: 768px) {
-    .album_container {
-        grid-template-columns: repeat(1fr, 1fr);
+    @media screen and (max-width: 768px) {
+        .album_container {
+            grid-template-columns: repeat(1fr, 1fr);
+        }
     }
-}
 
-@media screen and (max-width: 420px) {
-    .album_container {
-        grid-template-columns: repeat(1fr);
+    @media screen and (max-width: 420px) {
+        .album_container {
+            grid-template-columns: repeat(1fr);
+        }
     }
-}
-```
-> grid issue had to use spam 2 rows to show portrait images correcty
+    ```
 
-> submit form input only if value entered otherwise ignore, no hml solution found
+    Results differ when using dev tools and resizing the browser.
 
+    * Dev Tools
 
-BIG BUg Chrome DEV tools, responsive previe does not apply page breaks and outside that option it does.
+    <a href="https://imgur.com/ira2lz5"><img src="https://i.imgur.com/ira2lz5.png" title="source: imgur.com" /></a>
 
-and print screens
+    * No Dev Tools
+
+    <a href="https://imgur.com/akDzStR"><img src="https://i.imgur.com/akDzStR.png" title="source: imgur.com" /></a>
+
 
 ## **4.2. Integrity**
 
-Placeholder Text
+HTML and CSS build was tested through the [W3C Validator](https://validator.w3.org/#validate_by_upload+with_options) .HTML file, and the CSS through [W3C JigSaw Validator](http://jigsaw.w3.org/css-validator/#validate_by_upload) .css file.
 
-### **4.2.1. Media**
+**All pages have passed with no errors**
 
-Placeholder Text
+* W3C Validator
+    * **index.html**
+
+        <a href="https://imgur.com/7BCfXup"><img src="https://i.imgur.com/7BCfXup.png" title="source: imgur.com" /></a>
+
+    * **order.html**
+
+        <a href="https://imgur.com/eVq5ZXk"><img src="https://i.imgur.com/eVq5ZXk.png" title="source: imgur.com" /></a>
+
+    * **contact.html**
+
+        <a href="https://imgur.com/q0t1XqN"><img src="https://i.imgur.com/q0t1XqN.png" title="source: imgur.com" /></a>
+
+    * **gallery.html**
+
+        <a href="https://imgur.com/uenPFCQ"><img src="https://i.imgur.com/uenPFCQ.png" title="source: imgur.com" /></a>
+
+* W3C JigSaw Validator
+
+    * **style.css**
+
+        <a href="https://imgur.com/ZLjR2Ww"><img src="https://i.imgur.com/ZLjR2Ww.png" title="source: imgur.com" /></a>
+
+
+### **4.2.1. Responsiveness**
+
+To test performance, used to primary tools:
+
+* [www.responsinator.com](https://www.responsinator.com/?url=https%3A%2F%2Fedgarassp.github.io%2FMariana_Bakehouse%2Findex.html)
+
+    <a href="https://imgur.com/1gnL6GD"><img src="https://i.imgur.com/1gnL6GD.png" title="source: imgur.com" /></a>
+
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    > **PLEASE NOTE!** Due to bug with the responsive view accessed via "Inspect" then "Toggle Device Toolbar" the media queries were tested without using this option. Also, bug was reported to Code Institute, who confirmed that there was a discrepancy with breakpoints not being displayed correctly. Please do not test responsiveness via this tool, please resize the window instead.
+
+    <a href="https://imgur.com/hzIycZo"><img src="https://i.imgur.com/hzIycZo.png" title="source: imgur.com" /></a>
+
+
 
 ### **4.2.2. Links**
 
-Placeholder Text
+Links tested:            
+
+*   Nav-Bar & Footer
+    * "LOGO" to "HOME PAGE" = **Validated**
+    * "NAV-BAR" to action, navigate "PAGES"= **Validated**
+    * "FACEBOOK" to action, open "www.facbook.com" = **Validated**
+    * "TWITTER" to action, open "www.twitter.com" = **Validated**
+    * "INSTAGRAM" to action, open "www.instagram.com" = **Validated**
+    * "SUBSCRIBE" to action, "Submit" form = **Validated**
+    * "QUICK LINKS" to action, navigate "PAGES"= **Validated**
+
+*   Home Page:
+    * "SHOP NOW" to "ORDER PAGE" = **Validated**
+    * "ORDER" 4x to "ORDER PAGE" = **Validated**
+    * "CONTACT US" action "Submit" form = **Validated**
+    * "SEND MESSAGE" action, "Submit" form = **Validated**
+
+*   Order Page:
+    * "SUBMIT YOU ORDER" action, "Submit" form = **Validated**
+
+*   Contact Page:
+    * "SEND MESSAGE" action, "Submit" form = **Validated**
+    * "FACEBOOK" to action, open "www.facbook.com" = **Validated**
+    * "TWITTER" to action, open "www.twitter.com" = **Validated**
+    * "INSTAGRAM" to action, open "www.instagram.com" = **Validated**
+
 
 ### **4.2.3. Forms**
 
-Placeholder Text
+Forms tested:            
 
-### **4.2.4. Accesability**
+*   Nav-Bar & Footer
+    * "SUBSCRIBE" all data fields submit correctly, confirmed by Coding Institute confirmation page = **Validated**
 
-Placeholder Text
+
+*   Home Page:
+    * "CONTACT US" all data fields submit correctly, confirmed by Coding Institute confirmation page = **Validated**
+
+*   Order Page:
+    * "SUBMIT YOU ORDER" all data fields submit correctly, confirmed by Coding Institute confirmation page = **Validated**
+
+*   Contact Page:
+    * "SEND MESSAGE" all data fields submit correctly, confirmed by Coding Institute confirmation page = **Validated**
+
 
 ## **4.3. Build**
 
 ### **4.3.1. Performance**
 
-Placeholder Text
+A lighthouse report was run for each page on the deployed github page, results below:
+
+* **Home Page**
+
+    <a href="https://imgur.com/oBc2qn0"><img src="https://i.imgur.com/oBc2qn0.png" title="source: imgur.com" /></a> 
+
+* **Order Page**
+
+    <a href="https://imgur.com/giDnCfD"><img src="https://i.imgur.com/giDnCfD.png" title="source: imgur.com" /></a>
+
+* **Contact Page**
+
+    <a href="https://imgur.com/Y2Wrrj4"><img src="https://i.imgur.com/Y2Wrrj4.png" title="source: imgur.com" /></a>
+
+* **Gallery Page**
+
+    <a href="https://imgur.com/4i2DXLe"><img src="https://i.imgur.com/4i2DXLe.png" title="source: imgur.com" /></a>
+
+
 
 ### **4.3.2. Optimisation**
 
-Placeholder Text
+All images used in the site were compressed using [compressor.io](https://compressor.io/) to increase site performance. 
+
+*   Original combined image file size was: **37.5MB**
+*   Compressed combined image file size now is: **4.29MB**
+
+Using built in Chrome performance testing tool **Litehouse** the score for performance increased from 16 points to 70 points average.
 
 # **5. Road Map**
 > ##### [Table of Content](#table-of-contents)
-<br>
 
-## **5.1. Esential Features**
 
-There are 4 esential features to implement in the future:
+## **5.1. Essential Features**
 
-1. __Form Submision Confirmation__
+There are 4 essential features to implement in the future:
+
+1. __Form Submission Confirmation__
 	* Create a visual confirmation that the contact forms have been sent to the baker. Either via a pop up or visual change to the "Submit" or "Send" button.
 2. __User Profile__
-	* To provide order history, order status and to store client details for fast track shoping experiance.
+	* To provide order history, order status and to store client details for fast track shopping experience.
 3. __Shopping Basket__
 	* To allow customers to add items and manage items in the basket. Also to show customers subtotal for the order.
 4. __Online Payment Option__
-	* To stream line the shoping experiance and allow customer to pay for the order at the point of ordring rather than pay at the point of collection or delivery.
+	* To stream line the shopping experience and allow customer to pay for the order at the point of ordering rather than pay at the point of collection or delivery.
 
 ## **5.2. Additional Features**
 
-There are 2 non-esential features to implement in the future:
+There are 2 non-essential features to implement in the future:
 
 1. __Discounts__
-	* Develope a discount function within the site, including discount codes and discounts based on quantities ordered.
+	* Develop a discount function within the site, including discount codes and discounts based on quantities ordered.
 
 2. __Direct Image Upload__
 	* Create an option to upload an example picture of a product within the special orders form.
 
 # **6. Deployment**
 > ##### [Table of Content](#table-of-contents)
-<br>
+
 
 ## **6.1. Deployment to GitHub**
 
 The project was developed using [GitPod](https://gitpod.io/), pushed to [GitHub Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) and deployed via GitHub pages. The steps to deploy outlined below:
 
 
-The Code Institute provided a [template](https://github.com/Code-Institute-Org/gitpod-full-template) which was cloned and used for the main structure of the repository, then created into a GitPod repository. To achieve the above, the below below process can be followed for deployment:
+The Code Institute provided a [template](https://github.com/Code-Institute-Org/gitpod-full-template) which was cloned and used for the main structure of the repository, then created into a GitPod repository. To achieve the above, the below process can be followed for deployment:
 
 1. Go to the [GitHub Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) home page.
 2. Click "Settings" in the ribbon of links below the title of the project.
@@ -432,7 +568,7 @@ The Code Institute provided a [template](https://github.com/Code-Institute-Org/g
 
 ## **6.2. Cloning on GitHub**
 
-You will need to have a [GitHub ](https://github.com) account and it is adviced to install the [GitPod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). To clone the project into your own repository follow the below steps :
+You will need to have a [GitHub ](https://github.com) account and it is advised to install the [GitPod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). To clone the project into your own repository follow the below steps :
 
 1. Log in to your [GitPod account](https://gitpod.io/) .
 2. Open the [Project Repository](https://github.com/EdgarasSp/Mariana_Bakehouse) in a new tab.
@@ -440,19 +576,17 @@ You will need to have a [GitHub ](https://github.com) account and it is adviced 
 4. This will automatically create a new GitPod workspace for you to work on.
 5. You can type in any name of your choosing.
 
-<br>
 
 # **7. Credits**
 > ##### [Table of Content](#table-of-contents)
-<br>
 
 ## **7.1. Code**
 
-Website was created using primerally code tought by Code Institue during first module, to help with some difficulties below sites were used:
+Website was created using code taught by Code Institute during first module, to help with some difficulties below sites were used:
 
-* __W3 Schools__ - To research both HTML and CSS, key arease were position absolute and relative, flex boxes and units of meassure. 
+* __W3 Schools__ - To research both HTML and CSS, key areas were position absolute and relative, flex boxes and units of measure. 
 
-* __Stack Overflow__ - To reaserch answers to a quries to help me to understand the reasons behind the implementation and to help understand trouboulshooting process.
+* __Stack Overflow__ - To research answers to a queries to help me to understand the reasons behind the implementation and to help understand troubleshooting process.
 
 
 ## **7.2. Images** 
@@ -496,4 +630,4 @@ Placeholder Text
 
 The content of this Website is for educational purposes only. 
 -
-This website has been created for a fictional bakery and all information supplied within the site is fictional. Please do not use any information including diatery information in real life applications.
+This website has been created for a fictional bakery and all information supplied within the site is fictional. Please do not use any information including dietary information in real life applications.
