@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -934,7 +942,7 @@ iframe {
     width: 60%;
     height: 30px;
     margin: 5px 5px;
-    border-radius: px;
+    border-radius: 2px;
     border: rgba(211, 216, 211, 0.6) solid 1px;
 }
 
